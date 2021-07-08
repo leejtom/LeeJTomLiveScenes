@@ -1,0 +1,2314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0448E472260C1BB400B41603 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0448E471260C1BB400B41603 /* AppDelegate.m */; };
+		0448E478260C1BB400B41603 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0448E477260C1BB400B41603 /* ViewController.m */; };
+		0448E47D260C1BB600B41603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0448E47C260C1BB600B41603 /* Assets.xcassets */; };
+		0448E480260C1BB600B41603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0448E47E260C1BB600B41603 /* LaunchScreen.storyboard */; };
+		0448E483260C1BB600B41603 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0448E482260C1BB600B41603 /* main.m */; };
+		0448E48D260C1BB600B41603 /* LeeJTomLiveScenesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0448E48C260C1BB600B41603 /* LeeJTomLiveScenesTests.m */; };
+		0448E498260C1BB600B41603 /* LeeJTomLiveScenesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0448E497260C1BB600B41603 /* LeeJTomLiveScenesUITests.m */; };
+		0448E6E1260D7BD900B41603 /* PLVECBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0448E6DF260D7BD900B41603 /* PLVECBaseNavigationController.m */; };
+		0448E6ED260D7D9300B41603 /* JTomLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0448E6EC260D7D9300B41603 /* JTomLoginViewController.m */; };
+		0448E6F6260D812C00B41603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0448E6F4260D812C00B41603 /* Main.storyboard */; };
+		044EEE2026204CCF008FA96A /* JTBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044EEE1F26204CCF008FA96A /* JTBaseNavigationController.m */; };
+		2A61A6D6FBE934F6F73C24C0 /* Pods_LeeJTomLiveScenes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC0F007143D840CB3780CE6 /* Pods_LeeJTomLiveScenes.framework */; };
+		5287DC10F8198778BF4B893B /* Pods_LeeJTomLiveScenesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA8A72CEE506BD419A15241 /* Pods_LeeJTomLiveScenesTests.framework */; };
+		6C41D978E9C42B09758FC61B /* Pods_LeeJTomLiveScenes_LeeJTomLiveScenesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC55E238FFC13DC8F8DBF2D /* Pods_LeeJTomLiveScenes_LeeJTomLiveScenesUITests.framework */; };
+		8F8238AF26945D240070DB9E /* PLVLCCloudClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82375326945D220070DB9E /* PLVLCCloudClassViewController.m */; };
+		8F8238B026945D240070DB9E /* PLVMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F82375626945D220070DB9E /* PLVMenu.bundle */; };
+		8F8238B126945D240070DB9E /* PLVLinkMic.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F82375726945D220070DB9E /* PLVLinkMic.bundle */; };
+		8F8238B226945D240070DB9E /* PLVLCUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82375826945D220070DB9E /* PLVLCUtils.m */; };
+		8F8238B326945D240070DB9E /* PLVMedia.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F82375926945D220070DB9E /* PLVMedia.bundle */; };
+		8F8238B426945D240070DB9E /* PLVChatroom.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F82375A26945D220070DB9E /* PLVChatroom.bundle */; };
+		8F8238B526945D240070DB9E /* PLVLiveRoom.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F82375B26945D220070DB9E /* PLVLiveRoom.bundle */; };
+		8F8238B626945D240070DB9E /* PLVLCLinkMicAreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82375E26945D220070DB9E /* PLVLCLinkMicAreaView.m */; };
+		8F8238B726945D240070DB9E /* PLVLinkMicOnlineUser+LC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82376126945D220070DB9E /* PLVLinkMicOnlineUser+LC.m */; };
+		8F8238B826945D240070DB9E /* PLVLCLinkMicCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82376526945D220070DB9E /* PLVLCLinkMicCanvasView.m */; };
+		8F8238B926945D240070DB9E /* PLVLCLinkMicWindowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82376926945D220070DB9E /* PLVLCLinkMicWindowCell.m */; };
+		8F8238BA26945D240070DB9E /* PLVLCLinkMicWindowsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82376A26945D220070DB9E /* PLVLCLinkMicWindowsView.m */; };
+		8F8238BB26945D240070DB9E /* PLVLCLinkMicSpeakingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82376D26945D220070DB9E /* PLVLCLinkMicSpeakingView.m */; };
+		8F8238BC26945D240070DB9E /* PLVLCLinkMicLandscapeControlBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82376F26945D220070DB9E /* PLVLCLinkMicLandscapeControlBar.m */; };
+		8F8238BD26945D240070DB9E /* PLVLCLinkMicPortraitControlBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82377026945D220070DB9E /* PLVLCLinkMicPortraitControlBar.m */; };
+		8F8238BE26945D240070DB9E /* PLVLCIframeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82377826945D220070DB9E /* PLVLCIframeViewController.m */; };
+		8F8238BF26945D240070DB9E /* PLVLCDescViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82377B26945D220070DB9E /* PLVLCDescViewController.m */; };
+		8F8238C026945D240070DB9E /* PLVLCDescTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82377D26945D220070DB9E /* PLVLCDescTopView.m */; };
+		8F8238C126945D240070DB9E /* PLVLCDescBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82377E26945D220070DB9E /* PLVLCDescBottomView.m */; };
+		8F8238C226945D240070DB9E /* PLVLCLivePageMenuAreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82378126945D220070DB9E /* PLVLCLivePageMenuAreaView.m */; };
+		8F8238C326945D240070DB9E /* PLVLCTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82378326945D220070DB9E /* PLVLCTextViewController.m */; };
+		8F8238C426945D240070DB9E /* PLVLCTuwenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82378726945D220070DB9E /* PLVLCTuwenViewController.m */; };
+		8F8238C526945D240070DB9E /* PLVLCLiveRoomPlayerSkinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82378B26945D220070DB9E /* PLVLCLiveRoomPlayerSkinView.m */; };
+		8F8238C626945D240070DB9E /* PLVLCLiveRoomLandscapeInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82378E26945D220070DB9E /* PLVLCLiveRoomLandscapeInputView.m */; };
+		8F8238C726945D240070DB9E /* PLVLCChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82379126945D220070DB9E /* PLVLCChatViewController.m */; };
+		8F8238C826945D240070DB9E /* PLVLCChatLandscapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82379426945D220070DB9E /* PLVLCChatLandscapeView.m */; };
+		8F8238C926945D240070DB9E /* PLVLCMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82379626945D220070DB9E /* PLVLCMessageCell.m */; };
+		8F8238CA26945D240070DB9E /* PLVLCQuoteMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82379B26945D220070DB9E /* PLVLCQuoteMessageCell.m */; };
+		8F8238CB26945D240070DB9E /* PLVLCImageMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82379D26945D220070DB9E /* PLVLCImageMessageCell.m */; };
+		8F8238CC26945D240070DB9E /* PLVLCLandscapeSpeakCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82379F26945D220070DB9E /* PLVLCLandscapeSpeakCell.m */; };
+		8F8238CD26945D240070DB9E /* PLVLCLandscapeImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237A126945D220070DB9E /* PLVLCLandscapeImageCell.m */; };
+		8F8238CE26945D240070DB9E /* PLVLCLandscapeQuoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237A226945D220070DB9E /* PLVLCLandscapeQuoteCell.m */; };
+		8F8238CF26945D240070DB9E /* PLVLCSpeakMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237A326945D220070DB9E /* PLVLCSpeakMessageCell.m */; };
+		8F8238D026945D240070DB9E /* PLVLCQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237A426945D220070DB9E /* PLVLCQuizViewController.m */; };
+		8F8238D126945D240070DB9E /* PLVLCWelcomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237AB26945D220070DB9E /* PLVLCWelcomeView.m */; };
+		8F8238D226945D240070DB9E /* PLVLCNotifyMarqueeView..m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237AD26945D220070DB9E /* PLVLCNotifyMarqueeView..m */; };
+		8F8238D326945D240070DB9E /* PLVLCLikeButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237AE26945D230070DB9E /* PLVLCLikeButtonView.m */; };
+		8F8238D426945D240070DB9E /* PLVLCChatTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237AF26945D230070DB9E /* PLVLCChatTextView.m */; };
+		8F8238D526945D240070DB9E /* PLVLCNewMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237B126945D230070DB9E /* PLVLCNewMessageView.m */; };
+		8F8238D626945D240070DB9E /* PLVLCLandscapeNewMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237B226945D230070DB9E /* PLVLCLandscapeNewMessageView.m */; };
+		8F8238D726945D240070DB9E /* PLVLCChatroomViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237B326945D230070DB9E /* PLVLCChatroomViewModel.m */; };
+		8F8238D826945D240070DB9E /* PLVLCMediaAreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237B726945D230070DB9E /* PLVLCMediaAreaView.m */; };
+		8F8238D926945D240070DB9E /* PLVLCMediaMoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237BA26945D230070DB9E /* PLVLCMediaMoreModel.m */; };
+		8F8238DA26945D240070DB9E /* PLVLCMediaMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237BD26945D230070DB9E /* PLVLCMediaMoreView.m */; };
+		8F8238DB26945D240070DB9E /* PLVLCMediaMoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237BE26945D230070DB9E /* PLVLCMediaMoreCell.m */; };
+		8F8238DC26945D240070DB9E /* PLVLCMediaPlayerSkinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237C426945D230070DB9E /* PLVLCMediaPlayerSkinView.m */; };
+		8F8238DD26945D240070DB9E /* PLVLCBasePlayerSkinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237C526945D230070DB9E /* PLVLCBasePlayerSkinView.m */; };
+		8F8238DE26945D240070DB9E /* PLVLCMediaBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237C826945D230070DB9E /* PLVLCMediaBrightnessView.m */; };
+		8F8238DF26945D240070DB9E /* PLVLCMediaCountdownTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237CB26945D230070DB9E /* PLVLCMediaCountdownTimeView.m */; };
+		8F8238E026945D240070DB9E /* PLVLCMediaFloatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237CE26945D230070DB9E /* PLVLCMediaFloatView.m */; };
+		8F8238E126945D240070DB9E /* PLVLCMediaPlayerCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237D026945D230070DB9E /* PLVLCMediaPlayerCanvasView.m */; };
+		8F8238E226945D240070DB9E /* PLVEmoticonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237D526945D230070DB9E /* PLVEmoticonManager.m */; };
+		8F8238E326945D240070DB9E /* PLVEmoticon.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F8237D826945D230070DB9E /* PLVEmoticon.plist */; };
+		8F8238E426945D240070DB9E /* PLVEmoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F8237D926945D230070DB9E /* PLVEmoticons.bundle */; };
+		8F8238E526945D240070DB9E /* PLVPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237DB26945D230070DB9E /* PLVPageController.m */; };
+		8F8238E626945D240070DB9E /* PLVPageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237DC26945D230070DB9E /* PLVPageViewCell.m */; };
+		8F8238E726945D240070DB9E /* PLVMarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237E026945D230070DB9E /* PLVMarqueeLabel.m */; };
+		8F8238E826945D240070DB9E /* PLVPlayerLogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237E426945D230070DB9E /* PLVPlayerLogoView.m */; };
+		8F8238E926945D240070DB9E /* PLVDanMuLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237E826945D230070DB9E /* PLVDanMuLabel.m */; };
+		8F8238EA26945D240070DB9E /* PLVdanmu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237EA26945D230070DB9E /* PLVdanmu.m */; };
+		8F8238EB26945D240070DB9E /* PLVProgressSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237EC26945D230070DB9E /* PLVProgressSlider.m */; };
+		8F8238EC26945D240070DB9E /* PLVAlbumTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237F126945D230070DB9E /* PLVAlbumTool.m */; };
+		8F8238ED26945D240070DB9E /* PLVWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237F226945D230070DB9E /* PLVWebImageDecoder.m */; };
+		8F8238EE26945D240070DB9E /* PLVCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237F626945D230070DB9E /* PLVCameraViewController.m */; };
+		8F8238EF26945D240070DB9E /* PLVPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237F826945D230070DB9E /* PLVPickerController.m */; };
+		8F8238F026945D240070DB9E /* PLVPhotoPreBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237F926945D230070DB9E /* PLVPhotoPreBaseViewController.m */; };
+		8F8238F126945D240070DB9E /* PLVAlbumNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237FA26945D230070DB9E /* PLVAlbumNavigationController.m */; };
+		8F8238F226945D240070DB9E /* PLVPhotoPreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237FB26945D230070DB9E /* PLVPhotoPreViewController.m */; };
+		8F8238F326945D240070DB9E /* PLVAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8237FD26945D230070DB9E /* PLVAlbumsViewController.m */; };
+		8F8238F426945D240070DB9E /* PLVAlbumInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82380326945D230070DB9E /* PLVAlbumInfo.m */; };
+		8F8238F526945D240070DB9E /* PLVImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82380426945D230070DB9E /* PLVImageInfo.m */; };
+		8F8238F626945D240070DB9E /* PLVPreCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82380926945D230070DB9E /* PLVPreCollectionViewCell.m */; };
+		8F8238F726945D240070DB9E /* PLVPhotoCollectionFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82380D26945D230070DB9E /* PLVPhotoCollectionFooterView.m */; };
+		8F8238F826945D240070DB9E /* PLVAlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82380E26945D230070DB9E /* PLVAlbumTableViewCell.m */; };
+		8F8238F926945D240070DB9E /* PLVPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82380F26945D230070DB9E /* PLVPhotoCollectionViewCell.m */; };
+		8F8238FA26945D240070DB9E /* PLVAlbum.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F82381026945D230070DB9E /* PLVAlbum.bundle */; };
+		8F8238FB26945D240070DB9E /* PLVBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82381226945D230070DB9E /* PLVBaseNavigationController.m */; };
+		8F8238FC26945D240070DB9E /* PLVPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82381526945D230070DB9E /* PLVPhotoBrowser.m */; };
+		8F8238FD26945D240070DB9E /* PLVPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F82381626945D230070DB9E /* PLVPhotoBrowser.bundle */; };
+		8F8238FE26945D240070DB9E /* PLVKeyboardTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82381B26945D230070DB9E /* PLVKeyboardTextView.m */; };
+		8F8238FF26945D240070DB9E /* PLVEmojiSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82381D26945D230070DB9E /* PLVEmojiSelectView.m */; };
+		8F82390026945D240070DB9E /* PLVKeyboardToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82381E26945D230070DB9E /* PLVKeyboardToolView.m */; };
+		8F82390126945D240070DB9E /* PLVKeyboard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F82382126945D230070DB9E /* PLVKeyboard.bundle */; };
+		8F82390226945D240070DB9E /* PLVKeyboardUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82382226945D230070DB9E /* PLVKeyboardUtils.m */; };
+		8F82390326945D240070DB9E /* PLVKeyboardMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82382326945D230070DB9E /* PLVKeyboardMoreView.m */; };
+		8F82390426945D240070DB9E /* PLVAdvView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82382726945D230070DB9E /* PLVAdvView.m */; };
+		8F82390526945D240070DB9E /* PLVLinkMicPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82382C26945D230070DB9E /* PLVLinkMicPresenter.m */; };
+		8F82390626945D240070DB9E /* PLVLinkMicOnlineUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82382F26945D230070DB9E /* PLVLinkMicOnlineUser.m */; };
+		8F82390726945D240070DB9E /* PLVRoomDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82383226945D230070DB9E /* PLVRoomDataManager.m */; };
+		8F82390826945D240070DB9E /* PLVRoomLoginClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82383326945D230070DB9E /* PLVRoomLoginClient.m */; };
+		8F82390926945D240070DB9E /* PLVRoomData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82383626945D230070DB9E /* PLVRoomData.m */; };
+		8F82390A26945D240070DB9E /* PLVRoomUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82383726945D230070DB9E /* PLVRoomUser.m */; };
+		8F82390B26945D240070DB9E /* PLVChatroomPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82383B26945D230070DB9E /* PLVChatroomPresenter.m */; };
+		8F82390C26945D240070DB9E /* PLVChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82383F26945D230070DB9E /* PLVChatModel.m */; };
+		8F82390D26945D240070DB9E /* PLVChatUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82384026945D230070DB9E /* PLVChatUser.m */; };
+		8F82390E26945D240070DB9E /* PLVPPTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82384326945D230070DB9E /* PLVPPTView.m */; };
+		8F82390F26945D240070DB9E /* PLVBugReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82384726945D230070DB9E /* PLVBugReporter.m */; };
+		8F82391026945D240070DB9E /* PLVInteractQuestionnaire.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82385026945D230070DB9E /* PLVInteractQuestionnaire.m */; };
+		8F82391126945D240070DB9E /* PLVInteractBulletin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82385126945D230070DB9E /* PLVInteractBulletin.m */; };
+		8F82391226945D240070DB9E /* PLVInteractLottery.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82385226945D230070DB9E /* PLVInteractLottery.m */; };
+		8F82391326945D240070DB9E /* PLVInteractAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82385326945D230070DB9E /* PLVInteractAnswer.m */; };
+		8F82391426945D240070DB9E /* PLVInteractView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82385426945D230070DB9E /* PLVInteractView.m */; };
+		8F82391526945D240070DB9E /* PLVInteractBaseApp+General.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82385526945D230070DB9E /* PLVInteractBaseApp+General.m */; };
+		8F82391626945D240070DB9E /* PLVInteractSignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82385626945D230070DB9E /* PLVInteractSignIn.m */; };
+		8F82391726945D240070DB9E /* PLVPlayerPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82385A26945D230070DB9E /* PLVPlayerPresenter.m */; };
+		8F82391826945D240070DB9E /* PLVECHomePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82385E26945D230070DB9E /* PLVECHomePageView.m */; };
+		8F82391926945D240070DB9E /* PLVECBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82386326945D230070DB9E /* PLVECBottomView.m */; };
+		8F82391A26945D240070DB9E /* PLVECLikeButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82386426945D230070DB9E /* PLVECLikeButtonView.m */; };
+		8F82391B26945D240070DB9E /* PLVECPlayerContolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82386526945D230070DB9E /* PLVECPlayerContolView.m */; };
+		8F82391C26945D240070DB9E /* PLVECMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82386626945D230070DB9E /* PLVECMoreView.m */; };
+		8F82391D26945D240070DB9E /* PLVECLiveRoomInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82386826945D230070DB9E /* PLVECLiveRoomInfoView.m */; };
+		8F82391E26945D240070DB9E /* PLVECSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82386926945D230070DB9E /* PLVECSwitchView.m */; };
+		8F82391F26945D240070DB9E /* PLVECBulletinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82386D26945D230070DB9E /* PLVECBulletinView.m */; };
+		8F82392026945D240070DB9E /* PLVECLiveDetailPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82387126945D230070DB9E /* PLVECLiveDetailPageView.m */; };
+		8F82392126945D240070DB9E /* PLVECBulletinCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82387326945D230070DB9E /* PLVECBulletinCardView.m */; };
+		8F82392226945D240070DB9E /* PLVECCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82387526945D230070DB9E /* PLVECCardView.m */; };
+		8F82392326945D240070DB9E /* PLVECLiveIntroductionCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82387726945D230070DB9E /* PLVECLiveIntroductionCardView.m */; };
+		8F82392426945D240070DB9E /* PLVECWatchRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82387A26945D240070DB9E /* PLVECWatchRoomViewController.m */; };
+		8F82392526945D240070DB9E /* PLVECUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82387D26945D240070DB9E /* PLVECUtils.m */; };
+		8F82392626945D240070DB9E /* WatchResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F82387E26945D240070DB9E /* WatchResource.bundle */; };
+		8F82392726945D240070DB9E /* PLVECCommodityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82388526945D240070DB9E /* PLVECCommodityCell.m */; };
+		8F82392826945D240070DB9E /* PLVECGoodsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82388726945D240070DB9E /* PLVECGoodsDetailViewController.m */; };
+		8F82392926945D240070DB9E /* PLVECCommodityPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82388926945D240070DB9E /* PLVECCommodityPushView.m */; };
+		8F82392A26945D240070DB9E /* PLVECCommodityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82388A26945D240070DB9E /* PLVECCommodityView.m */; };
+		8F82392B26945D240070DB9E /* PLVECCommodityModelsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82388D26945D240070DB9E /* PLVECCommodityModelsManager.m */; };
+		8F82392C26945D240070DB9E /* PLVECCommodityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82388E26945D240070DB9E /* PLVECCommodityViewController.m */; };
+		8F82392D26945D240070DB9E /* PLVECChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82389226945D240070DB9E /* PLVECChatCell.m */; };
+		8F82392E26945D240070DB9E /* PLVECChatroomViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82389426945D240070DB9E /* PLVECChatroomViewModel.m */; };
+		8F82392F26945D240070DB9E /* PLVECChatroomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82389626945D240070DB9E /* PLVECChatroomView.m */; };
+		8F82393026945D240070DB9E /* PLVECNewMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82389826945D240070DB9E /* PLVECNewMessageView.m */; };
+		8F82393126945D240070DB9E /* PLVECWelcomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82389A26945D240070DB9E /* PLVECWelcomView.m */; };
+		8F82393226945D240070DB9E /* PLVECRewardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82389D26945D240070DB9E /* PLVECRewardController.m */; };
+		8F82393326945D240070DB9E /* PLVECGiftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F82389F26945D240070DB9E /* PLVECGiftView.m */; };
+		8F82393426945D240070DB9E /* PLVECRewardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8238A026945D240070DB9E /* PLVECRewardView.m */; };
+		8F82393526945D240070DB9E /* PLVECPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8238A826945D240070DB9E /* PLVECPlayerViewController.m */; };
+		8F82393626945D240070DB9E /* PLVECFloatingWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8238A926945D240070DB9E /* PLVECFloatingWindow.m */; };
+		8F82393726945D240070DB9E /* PLVECPlayerBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8238AC26945D240070DB9E /* PLVECPlayerBackgroundView.m */; };
+		8F82393826945D240070DB9E /* PLVECAudioAnimalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8238AE26945D240070DB9E /* PLVECAudioAnimalView.m */; };
+		8FF0F6282674B4830047DE06 /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF0F6272674B4830047DE06 /* RedView.m */; };
+		8FF0F62B2674B5750047DE06 /* BlueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF0F62A2674B5750047DE06 /* BlueView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0448E489260C1BB600B41603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0448E465260C1BB400B41603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0448E46C260C1BB400B41603;
+			remoteInfo = LeeJTomLiveScenes;
+		};
+		0448E494260C1BB600B41603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0448E465260C1BB400B41603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0448E46C260C1BB400B41603;
+			remoteInfo = LeeJTomLiveScenes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8F6DBA8F2689B45A00AC71AE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0448E46D260C1BB400B41603 /* LeeJTomLiveScenes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeeJTomLiveScenes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0448E470260C1BB400B41603 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0448E471260C1BB400B41603 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0448E476260C1BB400B41603 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0448E477260C1BB400B41603 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0448E47C260C1BB600B41603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0448E47F260C1BB600B41603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0448E481260C1BB600B41603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0448E482260C1BB600B41603 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0448E488260C1BB600B41603 /* LeeJTomLiveScenesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeeJTomLiveScenesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0448E48C260C1BB600B41603 /* LeeJTomLiveScenesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeJTomLiveScenesTests.m; sourceTree = "<group>"; };
+		0448E48E260C1BB600B41603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0448E493260C1BB600B41603 /* LeeJTomLiveScenesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeeJTomLiveScenesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0448E497260C1BB600B41603 /* LeeJTomLiveScenesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeJTomLiveScenesUITests.m; sourceTree = "<group>"; };
+		0448E499260C1BB600B41603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0448E6DF260D7BD900B41603 /* PLVECBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECBaseNavigationController.m; sourceTree = "<group>"; };
+		0448E6E0260D7BD900B41603 /* PLVECBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECBaseNavigationController.h; sourceTree = "<group>"; };
+		0448E6EB260D7D9300B41603 /* JTomLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTomLoginViewController.h; sourceTree = "<group>"; };
+		0448E6EC260D7D9300B41603 /* JTomLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTomLoginViewController.m; sourceTree = "<group>"; };
+		0448E6F5260D812C00B41603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044EEE1E26204CCF008FA96A /* JTBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTBaseNavigationController.h; sourceTree = "<group>"; };
+		044EEE1F26204CCF008FA96A /* JTBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTBaseNavigationController.m; sourceTree = "<group>"; };
+		054A75A8D52F20817ADC8E1A /* Pods-LeeJTomLiveScenesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeeJTomLiveScenesTests.debug.xcconfig"; path = "Target Support Files/Pods-LeeJTomLiveScenesTests/Pods-LeeJTomLiveScenesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		149929D6FFD6018558A401D3 /* Pods-LeeJTomLiveScenes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeeJTomLiveScenes.debug.xcconfig"; path = "Target Support Files/Pods-LeeJTomLiveScenes/Pods-LeeJTomLiveScenes.debug.xcconfig"; sourceTree = "<group>"; };
+		2CA8A72CEE506BD419A15241 /* Pods_LeeJTomLiveScenesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeeJTomLiveScenesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC0F007143D840CB3780CE6 /* Pods_LeeJTomLiveScenes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeeJTomLiveScenes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FC55E238FFC13DC8F8DBF2D /* Pods_LeeJTomLiveScenes_LeeJTomLiveScenesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeeJTomLiveScenes_LeeJTomLiveScenesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83AC0AFEA43F17B946BBCD35 /* Pods-LeeJTomLiveScenes-LeeJTomLiveScenesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeeJTomLiveScenes-LeeJTomLiveScenesUITests.release.xcconfig"; path = "Target Support Files/Pods-LeeJTomLiveScenes-LeeJTomLiveScenesUITests/Pods-LeeJTomLiveScenes-LeeJTomLiveScenesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8F50568A264674E300327205 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8F82375226945D220070DB9E /* PLVLCCloudClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCCloudClassViewController.h; sourceTree = "<group>"; };
+		8F82375326945D220070DB9E /* PLVLCCloudClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCCloudClassViewController.m; sourceTree = "<group>"; };
+		8F82375526945D220070DB9E /* PLVLCUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCUtils.h; sourceTree = "<group>"; };
+		8F82375626945D220070DB9E /* PLVMenu.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PLVMenu.bundle; sourceTree = "<group>"; };
+		8F82375726945D220070DB9E /* PLVLinkMic.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PLVLinkMic.bundle; sourceTree = "<group>"; };
+		8F82375826945D220070DB9E /* PLVLCUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCUtils.m; sourceTree = "<group>"; };
+		8F82375926945D220070DB9E /* PLVMedia.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PLVMedia.bundle; sourceTree = "<group>"; };
+		8F82375A26945D220070DB9E /* PLVChatroom.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PLVChatroom.bundle; sourceTree = "<group>"; };
+		8F82375B26945D220070DB9E /* PLVLiveRoom.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PLVLiveRoom.bundle; sourceTree = "<group>"; };
+		8F82375E26945D220070DB9E /* PLVLCLinkMicAreaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCLinkMicAreaView.m; sourceTree = "<group>"; };
+		8F82376026945D220070DB9E /* PLVLinkMicOnlineUser+LC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PLVLinkMicOnlineUser+LC.h"; sourceTree = "<group>"; };
+		8F82376126945D220070DB9E /* PLVLinkMicOnlineUser+LC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PLVLinkMicOnlineUser+LC.m"; sourceTree = "<group>"; };
+		8F82376426945D220070DB9E /* PLVLCLinkMicCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCLinkMicCanvasView.h; sourceTree = "<group>"; };
+		8F82376526945D220070DB9E /* PLVLCLinkMicCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCLinkMicCanvasView.m; sourceTree = "<group>"; };
+		8F82376726945D220070DB9E /* PLVLCLinkMicWindowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCLinkMicWindowCell.h; sourceTree = "<group>"; };
+		8F82376826945D220070DB9E /* PLVLCLinkMicWindowsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCLinkMicWindowsView.h; sourceTree = "<group>"; };
+		8F82376926945D220070DB9E /* PLVLCLinkMicWindowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCLinkMicWindowCell.m; sourceTree = "<group>"; };
+		8F82376A26945D220070DB9E /* PLVLCLinkMicWindowsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCLinkMicWindowsView.m; sourceTree = "<group>"; };
+		8F82376C26945D220070DB9E /* PLVLCLinkMicSpeakingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCLinkMicSpeakingView.h; sourceTree = "<group>"; };
+		8F82376D26945D220070DB9E /* PLVLCLinkMicSpeakingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCLinkMicSpeakingView.m; sourceTree = "<group>"; };
+		8F82376F26945D220070DB9E /* PLVLCLinkMicLandscapeControlBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCLinkMicLandscapeControlBar.m; sourceTree = "<group>"; };
+		8F82377026945D220070DB9E /* PLVLCLinkMicPortraitControlBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCLinkMicPortraitControlBar.m; sourceTree = "<group>"; };
+		8F82377126945D220070DB9E /* PLVLCLinkMicLandscapeControlBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCLinkMicLandscapeControlBar.h; sourceTree = "<group>"; };
+		8F82377226945D220070DB9E /* PLVLCLinkMicPortraitControlBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCLinkMicPortraitControlBar.h; sourceTree = "<group>"; };
+		8F82377326945D220070DB9E /* PLVLCLinkMicControlBarProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCLinkMicControlBarProtocol.h; sourceTree = "<group>"; };
+		8F82377426945D220070DB9E /* PLVLCLinkMicAreaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCLinkMicAreaView.h; sourceTree = "<group>"; };
+		8F82377726945D220070DB9E /* PLVLCIframeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCIframeViewController.h; sourceTree = "<group>"; };
+		8F82377826945D220070DB9E /* PLVLCIframeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCIframeViewController.m; sourceTree = "<group>"; };
+		8F82377926945D220070DB9E /* PLVLCLivePageMenuAreaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCLivePageMenuAreaView.h; sourceTree = "<group>"; };
+		8F82377B26945D220070DB9E /* PLVLCDescViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCDescViewController.m; sourceTree = "<group>"; };
+		8F82377C26945D220070DB9E /* PLVLCDescBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCDescBottomView.h; sourceTree = "<group>"; };
+		8F82377D26945D220070DB9E /* PLVLCDescTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCDescTopView.m; sourceTree = "<group>"; };
+		8F82377E26945D220070DB9E /* PLVLCDescBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCDescBottomView.m; sourceTree = "<group>"; };
+		8F82377F26945D220070DB9E /* PLVLCDescViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCDescViewController.h; sourceTree = "<group>"; };
+		8F82378026945D220070DB9E /* PLVLCDescTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCDescTopView.h; sourceTree = "<group>"; };
+		8F82378126945D220070DB9E /* PLVLCLivePageMenuAreaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCLivePageMenuAreaView.m; sourceTree = "<group>"; };
+		8F82378326945D220070DB9E /* PLVLCTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCTextViewController.m; sourceTree = "<group>"; };
+		8F82378426945D220070DB9E /* PLVLCTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCTextViewController.h; sourceTree = "<group>"; };
+		8F82378626945D220070DB9E /* PLVLCTuwenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCTuwenViewController.h; sourceTree = "<group>"; };
+		8F82378726945D220070DB9E /* PLVLCTuwenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCTuwenViewController.m; sourceTree = "<group>"; };
+		8F82378B26945D220070DB9E /* PLVLCLiveRoomPlayerSkinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCLiveRoomPlayerSkinView.m; sourceTree = "<group>"; };
+		8F82378C26945D220070DB9E /* PLVLCLiveRoomPlayerSkinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCLiveRoomPlayerSkinView.h; sourceTree = "<group>"; };
+		8F82378E26945D220070DB9E /* PLVLCLiveRoomLandscapeInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCLiveRoomLandscapeInputView.m; sourceTree = "<group>"; };
+		8F82378F26945D220070DB9E /* PLVLCLiveRoomLandscapeInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCLiveRoomLandscapeInputView.h; sourceTree = "<group>"; };
+		8F82379126945D220070DB9E /* PLVLCChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCChatViewController.m; sourceTree = "<group>"; };
+		8F82379226945D220070DB9E /* PLVLCQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCQuizViewController.h; sourceTree = "<group>"; };
+		8F82379326945D220070DB9E /* PLVLCChatroomViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCChatroomViewModel.h; sourceTree = "<group>"; };
+		8F82379426945D220070DB9E /* PLVLCChatLandscapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCChatLandscapeView.m; sourceTree = "<group>"; };
+		8F82379626945D220070DB9E /* PLVLCMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCMessageCell.m; sourceTree = "<group>"; };
+		8F82379726945D220070DB9E /* PLVLCImageMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCImageMessageCell.h; sourceTree = "<group>"; };
+		8F82379826945D220070DB9E /* PLVLCLandscapeSpeakCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCLandscapeSpeakCell.h; sourceTree = "<group>"; };
+		8F82379926945D220070DB9E /* PLVLCLandscapeQuoteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCLandscapeQuoteCell.h; sourceTree = "<group>"; };
+		8F82379A26945D220070DB9E /* PLVLCLandscapeImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCLandscapeImageCell.h; sourceTree = "<group>"; };
+		8F82379B26945D220070DB9E /* PLVLCQuoteMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCQuoteMessageCell.m; sourceTree = "<group>"; };
+		8F82379C26945D220070DB9E /* PLVLCSpeakMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCSpeakMessageCell.h; sourceTree = "<group>"; };
+		8F82379D26945D220070DB9E /* PLVLCImageMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCImageMessageCell.m; sourceTree = "<group>"; };
+		8F82379E26945D220070DB9E /* PLVLCMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCMessageCell.h; sourceTree = "<group>"; };
+		8F82379F26945D220070DB9E /* PLVLCLandscapeSpeakCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCLandscapeSpeakCell.m; sourceTree = "<group>"; };
+		8F8237A026945D220070DB9E /* PLVLCQuoteMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCQuoteMessageCell.h; sourceTree = "<group>"; };
+		8F8237A126945D220070DB9E /* PLVLCLandscapeImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCLandscapeImageCell.m; sourceTree = "<group>"; };
+		8F8237A226945D220070DB9E /* PLVLCLandscapeQuoteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCLandscapeQuoteCell.m; sourceTree = "<group>"; };
+		8F8237A326945D220070DB9E /* PLVLCSpeakMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCSpeakMessageCell.m; sourceTree = "<group>"; };
+		8F8237A426945D220070DB9E /* PLVLCQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCQuizViewController.m; sourceTree = "<group>"; };
+		8F8237A526945D220070DB9E /* PLVLCChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCChatViewController.h; sourceTree = "<group>"; };
+		8F8237A726945D220070DB9E /* PLVLCChatTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCChatTextView.h; sourceTree = "<group>"; };
+		8F8237A826945D220070DB9E /* PLVLCLikeButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCLikeButtonView.h; sourceTree = "<group>"; };
+		8F8237A926945D220070DB9E /* PLVLCLandscapeNewMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCLandscapeNewMessageView.h; sourceTree = "<group>"; };
+		8F8237AA26945D220070DB9E /* PLVLCNewMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCNewMessageView.h; sourceTree = "<group>"; };
+		8F8237AB26945D220070DB9E /* PLVLCWelcomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCWelcomeView.m; sourceTree = "<group>"; };
+		8F8237AC26945D220070DB9E /* PLVLCNotifyMarqueeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCNotifyMarqueeView.h; sourceTree = "<group>"; };
+		8F8237AD26945D220070DB9E /* PLVLCNotifyMarqueeView..m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCNotifyMarqueeView..m; sourceTree = "<group>"; };
+		8F8237AE26945D230070DB9E /* PLVLCLikeButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCLikeButtonView.m; sourceTree = "<group>"; };
+		8F8237AF26945D230070DB9E /* PLVLCChatTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCChatTextView.m; sourceTree = "<group>"; };
+		8F8237B026945D230070DB9E /* PLVLCWelcomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCWelcomeView.h; sourceTree = "<group>"; };
+		8F8237B126945D230070DB9E /* PLVLCNewMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCNewMessageView.m; sourceTree = "<group>"; };
+		8F8237B226945D230070DB9E /* PLVLCLandscapeNewMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCLandscapeNewMessageView.m; sourceTree = "<group>"; };
+		8F8237B326945D230070DB9E /* PLVLCChatroomViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCChatroomViewModel.m; sourceTree = "<group>"; };
+		8F8237B426945D230070DB9E /* PLVLCChatLandscapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCChatLandscapeView.h; sourceTree = "<group>"; };
+		8F8237B626945D230070DB9E /* PLVLCMediaAreaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCMediaAreaView.h; sourceTree = "<group>"; };
+		8F8237B726945D230070DB9E /* PLVLCMediaAreaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCMediaAreaView.m; sourceTree = "<group>"; };
+		8F8237B926945D230070DB9E /* PLVLCMediaMoreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCMediaMoreModel.h; sourceTree = "<group>"; };
+		8F8237BA26945D230070DB9E /* PLVLCMediaMoreModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCMediaMoreModel.m; sourceTree = "<group>"; };
+		8F8237BD26945D230070DB9E /* PLVLCMediaMoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCMediaMoreView.m; sourceTree = "<group>"; };
+		8F8237BE26945D230070DB9E /* PLVLCMediaMoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCMediaMoreCell.m; sourceTree = "<group>"; };
+		8F8237BF26945D230070DB9E /* PLVLCMediaMoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCMediaMoreView.h; sourceTree = "<group>"; };
+		8F8237C026945D230070DB9E /* PLVLCMediaMoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCMediaMoreCell.h; sourceTree = "<group>"; };
+		8F8237C226945D230070DB9E /* PLVLCMediaPlayerSkinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCMediaPlayerSkinView.h; sourceTree = "<group>"; };
+		8F8237C326945D230070DB9E /* PLVLCBasePlayerSkinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCBasePlayerSkinView.h; sourceTree = "<group>"; };
+		8F8237C426945D230070DB9E /* PLVLCMediaPlayerSkinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCMediaPlayerSkinView.m; sourceTree = "<group>"; };
+		8F8237C526945D230070DB9E /* PLVLCBasePlayerSkinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCBasePlayerSkinView.m; sourceTree = "<group>"; };
+		8F8237C726945D230070DB9E /* PLVLCMediaBrightnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCMediaBrightnessView.h; sourceTree = "<group>"; };
+		8F8237C826945D230070DB9E /* PLVLCMediaBrightnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCMediaBrightnessView.m; sourceTree = "<group>"; };
+		8F8237CA26945D230070DB9E /* PLVLCMediaCountdownTimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCMediaCountdownTimeView.h; sourceTree = "<group>"; };
+		8F8237CB26945D230070DB9E /* PLVLCMediaCountdownTimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCMediaCountdownTimeView.m; sourceTree = "<group>"; };
+		8F8237CD26945D230070DB9E /* PLVLCMediaFloatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCMediaFloatView.h; sourceTree = "<group>"; };
+		8F8237CE26945D230070DB9E /* PLVLCMediaFloatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCMediaFloatView.m; sourceTree = "<group>"; };
+		8F8237D026945D230070DB9E /* PLVLCMediaPlayerCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLCMediaPlayerCanvasView.m; sourceTree = "<group>"; };
+		8F8237D126945D230070DB9E /* PLVLCMediaPlayerCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLCMediaPlayerCanvasView.h; sourceTree = "<group>"; };
+		8F8237D526945D230070DB9E /* PLVEmoticonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVEmoticonManager.m; sourceTree = "<group>"; };
+		8F8237D626945D230070DB9E /* PLVEmoticonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVEmoticonManager.h; sourceTree = "<group>"; };
+		8F8237D826945D230070DB9E /* PLVEmoticon.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PLVEmoticon.plist; sourceTree = "<group>"; };
+		8F8237D926945D230070DB9E /* PLVEmoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PLVEmoticons.bundle; sourceTree = "<group>"; };
+		8F8237DB26945D230070DB9E /* PLVPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVPageController.m; sourceTree = "<group>"; };
+		8F8237DC26945D230070DB9E /* PLVPageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVPageViewCell.m; sourceTree = "<group>"; };
+		8F8237DD26945D230070DB9E /* PLVPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVPageController.h; sourceTree = "<group>"; };
+		8F8237DE26945D230070DB9E /* PLVPageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVPageViewCell.h; sourceTree = "<group>"; };
+		8F8237E026945D230070DB9E /* PLVMarqueeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVMarqueeLabel.m; sourceTree = "<group>"; };
+		8F8237E126945D230070DB9E /* PLVMarqueeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVMarqueeLabel.h; sourceTree = "<group>"; };
+		8F8237E326945D230070DB9E /* PLVPlayerLogoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVPlayerLogoView.h; sourceTree = "<group>"; };
+		8F8237E426945D230070DB9E /* PLVPlayerLogoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVPlayerLogoView.m; sourceTree = "<group>"; };
+		8F8237E626945D230070DB9E /* PLVDanMuLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVDanMuLabel.h; sourceTree = "<group>"; };
+		8F8237E726945D230070DB9E /* PLVDanMu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVDanMu.h; sourceTree = "<group>"; };
+		8F8237E826945D230070DB9E /* PLVDanMuLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVDanMuLabel.m; sourceTree = "<group>"; };
+		8F8237E926945D230070DB9E /* PLVDanMuDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVDanMuDefine.h; sourceTree = "<group>"; };
+		8F8237EA26945D230070DB9E /* PLVdanmu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVdanmu.m; sourceTree = "<group>"; };
+		8F8237EC26945D230070DB9E /* PLVProgressSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVProgressSlider.m; sourceTree = "<group>"; };
+		8F8237ED26945D230070DB9E /* PLVProgressSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVProgressSlider.h; sourceTree = "<group>"; };
+		8F8237F026945D230070DB9E /* PLVWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVWebImageDecoder.h; sourceTree = "<group>"; };
+		8F8237F126945D230070DB9E /* PLVAlbumTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVAlbumTool.m; sourceTree = "<group>"; };
+		8F8237F226945D230070DB9E /* PLVWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVWebImageDecoder.m; sourceTree = "<group>"; };
+		8F8237F326945D230070DB9E /* PLVPicDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVPicDefine.h; sourceTree = "<group>"; };
+		8F8237F426945D230070DB9E /* PLVAlbumTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVAlbumTool.h; sourceTree = "<group>"; };
+		8F8237F626945D230070DB9E /* PLVCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVCameraViewController.m; sourceTree = "<group>"; };
+		8F8237F726945D230070DB9E /* PLVAlbumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVAlbumsViewController.h; sourceTree = "<group>"; };
+		8F8237F826945D230070DB9E /* PLVPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVPickerController.m; sourceTree = "<group>"; };
+		8F8237F926945D230070DB9E /* PLVPhotoPreBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVPhotoPreBaseViewController.m; sourceTree = "<group>"; };
+		8F8237FA26945D230070DB9E /* PLVAlbumNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVAlbumNavigationController.m; sourceTree = "<group>"; };
+		8F8237FB26945D230070DB9E /* PLVPhotoPreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVPhotoPreViewController.m; sourceTree = "<group>"; };
+		8F8237FC26945D230070DB9E /* PLVPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVPickerController.h; sourceTree = "<group>"; };
+		8F8237FD26945D230070DB9E /* PLVAlbumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVAlbumsViewController.m; sourceTree = "<group>"; };
+		8F8237FE26945D230070DB9E /* PLVCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVCameraViewController.h; sourceTree = "<group>"; };
+		8F8237FF26945D230070DB9E /* PLVAlbumNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVAlbumNavigationController.h; sourceTree = "<group>"; };
+		8F82380026945D230070DB9E /* PLVPhotoPreBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVPhotoPreBaseViewController.h; sourceTree = "<group>"; };
+		8F82380126945D230070DB9E /* PLVPhotoPreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVPhotoPreViewController.h; sourceTree = "<group>"; };
+		8F82380326945D230070DB9E /* PLVAlbumInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVAlbumInfo.m; sourceTree = "<group>"; };
+		8F82380426945D230070DB9E /* PLVImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVImageInfo.m; sourceTree = "<group>"; };
+		8F82380526945D230070DB9E /* PLVAlbumInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVAlbumInfo.h; sourceTree = "<group>"; };
+		8F82380626945D230070DB9E /* PLVImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVImageInfo.h; sourceTree = "<group>"; };
+		8F82380826945D230070DB9E /* PLVPhotoCollectionFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVPhotoCollectionFooterView.h; sourceTree = "<group>"; };
+		8F82380926945D230070DB9E /* PLVPreCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVPreCollectionViewCell.m; sourceTree = "<group>"; };
+		8F82380A26945D230070DB9E /* PLVAlbumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVAlbumTableViewCell.h; sourceTree = "<group>"; };
+		8F82380B26945D230070DB9E /* PLVPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		8F82380C26945D230070DB9E /* PLVPreCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVPreCollectionViewCell.h; sourceTree = "<group>"; };
+		8F82380D26945D230070DB9E /* PLVPhotoCollectionFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVPhotoCollectionFooterView.m; sourceTree = "<group>"; };
+		8F82380E26945D230070DB9E /* PLVAlbumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVAlbumTableViewCell.m; sourceTree = "<group>"; };
+		8F82380F26945D230070DB9E /* PLVPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		8F82381026945D230070DB9E /* PLVAlbum.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PLVAlbum.bundle; sourceTree = "<group>"; };
+		8F82381226945D230070DB9E /* PLVBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVBaseNavigationController.m; sourceTree = "<group>"; };
+		8F82381326945D230070DB9E /* PLVBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVBaseNavigationController.h; sourceTree = "<group>"; };
+		8F82381526945D230070DB9E /* PLVPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVPhotoBrowser.m; sourceTree = "<group>"; };
+		8F82381626945D230070DB9E /* PLVPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PLVPhotoBrowser.bundle; sourceTree = "<group>"; };
+		8F82381726945D230070DB9E /* PLVPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVPhotoBrowser.h; sourceTree = "<group>"; };
+		8F82381926945D230070DB9E /* PLVEmojiSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVEmojiSelectView.h; sourceTree = "<group>"; };
+		8F82381A26945D230070DB9E /* PLVKeyboardToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVKeyboardToolView.h; sourceTree = "<group>"; };
+		8F82381B26945D230070DB9E /* PLVKeyboardTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVKeyboardTextView.m; sourceTree = "<group>"; };
+		8F82381C26945D230070DB9E /* PLVKeyboardMoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVKeyboardMoreView.h; sourceTree = "<group>"; };
+		8F82381D26945D230070DB9E /* PLVEmojiSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVEmojiSelectView.m; sourceTree = "<group>"; };
+		8F82381E26945D230070DB9E /* PLVKeyboardToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVKeyboardToolView.m; sourceTree = "<group>"; };
+		8F82382026945D230070DB9E /* PLVKeyboardUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVKeyboardUtils.h; sourceTree = "<group>"; };
+		8F82382126945D230070DB9E /* PLVKeyboard.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PLVKeyboard.bundle; sourceTree = "<group>"; };
+		8F82382226945D230070DB9E /* PLVKeyboardUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVKeyboardUtils.m; sourceTree = "<group>"; };
+		8F82382326945D230070DB9E /* PLVKeyboardMoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVKeyboardMoreView.m; sourceTree = "<group>"; };
+		8F82382426945D230070DB9E /* PLVKeyboardTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVKeyboardTextView.h; sourceTree = "<group>"; };
+		8F82382626945D230070DB9E /* PLVAdvView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVAdvView.h; sourceTree = "<group>"; };
+		8F82382726945D230070DB9E /* PLVAdvView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVAdvView.m; sourceTree = "<group>"; };
+		8F82382B26945D230070DB9E /* PLVLinkMicPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLinkMicPresenter.h; sourceTree = "<group>"; };
+		8F82382C26945D230070DB9E /* PLVLinkMicPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLinkMicPresenter.m; sourceTree = "<group>"; };
+		8F82382E26945D230070DB9E /* PLVLinkMicOnlineUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVLinkMicOnlineUser.h; sourceTree = "<group>"; };
+		8F82382F26945D230070DB9E /* PLVLinkMicOnlineUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVLinkMicOnlineUser.m; sourceTree = "<group>"; };
+		8F82383126945D230070DB9E /* PLVRoomLoginClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVRoomLoginClient.h; sourceTree = "<group>"; };
+		8F82383226945D230070DB9E /* PLVRoomDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVRoomDataManager.m; sourceTree = "<group>"; };
+		8F82383326945D230070DB9E /* PLVRoomLoginClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVRoomLoginClient.m; sourceTree = "<group>"; };
+		8F82383526945D230070DB9E /* PLVRoomUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVRoomUser.h; sourceTree = "<group>"; };
+		8F82383626945D230070DB9E /* PLVRoomData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVRoomData.m; sourceTree = "<group>"; };
+		8F82383726945D230070DB9E /* PLVRoomUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVRoomUser.m; sourceTree = "<group>"; };
+		8F82383826945D230070DB9E /* PLVRoomData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVRoomData.h; sourceTree = "<group>"; };
+		8F82383926945D230070DB9E /* PLVRoomDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVRoomDataManager.h; sourceTree = "<group>"; };
+		8F82383B26945D230070DB9E /* PLVChatroomPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVChatroomPresenter.m; sourceTree = "<group>"; };
+		8F82383D26945D230070DB9E /* PLVChatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVChatModel.h; sourceTree = "<group>"; };
+		8F82383E26945D230070DB9E /* PLVChatUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVChatUser.h; sourceTree = "<group>"; };
+		8F82383F26945D230070DB9E /* PLVChatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVChatModel.m; sourceTree = "<group>"; };
+		8F82384026945D230070DB9E /* PLVChatUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVChatUser.m; sourceTree = "<group>"; };
+		8F82384126945D230070DB9E /* PLVChatroomPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVChatroomPresenter.h; sourceTree = "<group>"; };
+		8F82384326945D230070DB9E /* PLVPPTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVPPTView.m; sourceTree = "<group>"; };
+		8F82384426945D230070DB9E /* PLVPPTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVPPTView.h; sourceTree = "<group>"; };
+		8F82384626945D230070DB9E /* PLVBugReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVBugReporter.h; sourceTree = "<group>"; };
+		8F82384726945D230070DB9E /* PLVBugReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVBugReporter.m; sourceTree = "<group>"; };
+		8F82384926945D230070DB9E /* PLVInteractQuestionnaire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVInteractQuestionnaire.h; sourceTree = "<group>"; };
+		8F82384A26945D230070DB9E /* PLVInteractAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVInteractAnswer.h; sourceTree = "<group>"; };
+		8F82384B26945D230070DB9E /* PLVInteractLottery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVInteractLottery.h; sourceTree = "<group>"; };
+		8F82384C26945D230070DB9E /* PLVInteractBulletin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVInteractBulletin.h; sourceTree = "<group>"; };
+		8F82384D26945D230070DB9E /* PLVInteractBaseApp+General.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PLVInteractBaseApp+General.h"; sourceTree = "<group>"; };
+		8F82384E26945D230070DB9E /* PLVInteractView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVInteractView.h; sourceTree = "<group>"; };
+		8F82384F26945D230070DB9E /* PLVInteractSignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVInteractSignIn.h; sourceTree = "<group>"; };
+		8F82385026945D230070DB9E /* PLVInteractQuestionnaire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVInteractQuestionnaire.m; sourceTree = "<group>"; };
+		8F82385126945D230070DB9E /* PLVInteractBulletin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVInteractBulletin.m; sourceTree = "<group>"; };
+		8F82385226945D230070DB9E /* PLVInteractLottery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVInteractLottery.m; sourceTree = "<group>"; };
+		8F82385326945D230070DB9E /* PLVInteractAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVInteractAnswer.m; sourceTree = "<group>"; };
+		8F82385426945D230070DB9E /* PLVInteractView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVInteractView.m; sourceTree = "<group>"; };
+		8F82385526945D230070DB9E /* PLVInteractBaseApp+General.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PLVInteractBaseApp+General.m"; sourceTree = "<group>"; };
+		8F82385626945D230070DB9E /* PLVInteractSignIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVInteractSignIn.m; sourceTree = "<group>"; };
+		8F82385926945D230070DB9E /* PLVPlayerPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVPlayerPresenter.h; sourceTree = "<group>"; };
+		8F82385A26945D230070DB9E /* PLVPlayerPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVPlayerPresenter.m; sourceTree = "<group>"; };
+		8F82385E26945D230070DB9E /* PLVECHomePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECHomePageView.m; sourceTree = "<group>"; };
+		8F82385F26945D230070DB9E /* PLVECHomePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECHomePageView.h; sourceTree = "<group>"; };
+		8F82386126945D230070DB9E /* PLVECSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECSwitchView.h; sourceTree = "<group>"; };
+		8F82386226945D230070DB9E /* PLVECLiveRoomInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECLiveRoomInfoView.h; sourceTree = "<group>"; };
+		8F82386326945D230070DB9E /* PLVECBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECBottomView.m; sourceTree = "<group>"; };
+		8F82386426945D230070DB9E /* PLVECLikeButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECLikeButtonView.m; sourceTree = "<group>"; };
+		8F82386526945D230070DB9E /* PLVECPlayerContolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECPlayerContolView.m; sourceTree = "<group>"; };
+		8F82386626945D230070DB9E /* PLVECMoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECMoreView.m; sourceTree = "<group>"; };
+		8F82386726945D230070DB9E /* PLVECBulletinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECBulletinView.h; sourceTree = "<group>"; };
+		8F82386826945D230070DB9E /* PLVECLiveRoomInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECLiveRoomInfoView.m; sourceTree = "<group>"; };
+		8F82386926945D230070DB9E /* PLVECSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECSwitchView.m; sourceTree = "<group>"; };
+		8F82386A26945D230070DB9E /* PLVECLikeButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECLikeButtonView.h; sourceTree = "<group>"; };
+		8F82386B26945D230070DB9E /* PLVECBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECBottomView.h; sourceTree = "<group>"; };
+		8F82386C26945D230070DB9E /* PLVECPlayerContolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECPlayerContolView.h; sourceTree = "<group>"; };
+		8F82386D26945D230070DB9E /* PLVECBulletinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECBulletinView.m; sourceTree = "<group>"; };
+		8F82386E26945D230070DB9E /* PLVECMoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECMoreView.h; sourceTree = "<group>"; };
+		8F82386F26945D230070DB9E /* PLVECWatchRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECWatchRoomViewController.h; sourceTree = "<group>"; };
+		8F82387126945D230070DB9E /* PLVECLiveDetailPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECLiveDetailPageView.m; sourceTree = "<group>"; };
+		8F82387326945D230070DB9E /* PLVECBulletinCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECBulletinCardView.m; sourceTree = "<group>"; };
+		8F82387426945D230070DB9E /* PLVECLiveIntroductionCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECLiveIntroductionCardView.h; sourceTree = "<group>"; };
+		8F82387526945D230070DB9E /* PLVECCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECCardView.m; sourceTree = "<group>"; };
+		8F82387626945D230070DB9E /* PLVECBulletinCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECBulletinCardView.h; sourceTree = "<group>"; };
+		8F82387726945D230070DB9E /* PLVECLiveIntroductionCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECLiveIntroductionCardView.m; sourceTree = "<group>"; };
+		8F82387826945D230070DB9E /* PLVECCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECCardView.h; sourceTree = "<group>"; };
+		8F82387926945D230070DB9E /* PLVECLiveDetailPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECLiveDetailPageView.h; sourceTree = "<group>"; };
+		8F82387A26945D240070DB9E /* PLVECWatchRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECWatchRoomViewController.m; sourceTree = "<group>"; };
+		8F82387C26945D240070DB9E /* PLVECUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECUtils.h; sourceTree = "<group>"; };
+		8F82387D26945D240070DB9E /* PLVECUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECUtils.m; sourceTree = "<group>"; };
+		8F82387E26945D240070DB9E /* WatchResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WatchResource.bundle; sourceTree = "<group>"; };
+		8F82388126945D240070DB9E /* PLVECGoodsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECGoodsDetailViewController.h; sourceTree = "<group>"; };
+		8F82388226945D240070DB9E /* PLVECCommodityModelsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECCommodityModelsManager.h; sourceTree = "<group>"; };
+		8F82388326945D240070DB9E /* PLVECCommodityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECCommodityViewController.h; sourceTree = "<group>"; };
+		8F82388526945D240070DB9E /* PLVECCommodityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECCommodityCell.m; sourceTree = "<group>"; };
+		8F82388626945D240070DB9E /* PLVECCommodityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECCommodityCell.h; sourceTree = "<group>"; };
+		8F82388726945D240070DB9E /* PLVECGoodsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECGoodsDetailViewController.m; sourceTree = "<group>"; };
+		8F82388926945D240070DB9E /* PLVECCommodityPushView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECCommodityPushView.m; sourceTree = "<group>"; };
+		8F82388A26945D240070DB9E /* PLVECCommodityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECCommodityView.m; sourceTree = "<group>"; };
+		8F82388B26945D240070DB9E /* PLVECCommodityPushView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECCommodityPushView.h; sourceTree = "<group>"; };
+		8F82388C26945D240070DB9E /* PLVECCommodityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECCommodityView.h; sourceTree = "<group>"; };
+		8F82388D26945D240070DB9E /* PLVECCommodityModelsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECCommodityModelsManager.m; sourceTree = "<group>"; };
+		8F82388E26945D240070DB9E /* PLVECCommodityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECCommodityViewController.m; sourceTree = "<group>"; };
+		8F82389026945D240070DB9E /* PLVECChatroomViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECChatroomViewModel.h; sourceTree = "<group>"; };
+		8F82389226945D240070DB9E /* PLVECChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECChatCell.m; sourceTree = "<group>"; };
+		8F82389326945D240070DB9E /* PLVECChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECChatCell.h; sourceTree = "<group>"; };
+		8F82389426945D240070DB9E /* PLVECChatroomViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECChatroomViewModel.m; sourceTree = "<group>"; };
+		8F82389626945D240070DB9E /* PLVECChatroomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECChatroomView.m; sourceTree = "<group>"; };
+		8F82389726945D240070DB9E /* PLVECWelcomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECWelcomView.h; sourceTree = "<group>"; };
+		8F82389826945D240070DB9E /* PLVECNewMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECNewMessageView.m; sourceTree = "<group>"; };
+		8F82389926945D240070DB9E /* PLVECChatroomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECChatroomView.h; sourceTree = "<group>"; };
+		8F82389A26945D240070DB9E /* PLVECWelcomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECWelcomView.m; sourceTree = "<group>"; };
+		8F82389B26945D240070DB9E /* PLVECNewMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECNewMessageView.h; sourceTree = "<group>"; };
+		8F82389D26945D240070DB9E /* PLVECRewardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECRewardController.m; sourceTree = "<group>"; };
+		8F82389F26945D240070DB9E /* PLVECGiftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECGiftView.m; sourceTree = "<group>"; };
+		8F8238A026945D240070DB9E /* PLVECRewardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECRewardView.m; sourceTree = "<group>"; };
+		8F8238A126945D240070DB9E /* PLVECGiftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECGiftView.h; sourceTree = "<group>"; };
+		8F8238A226945D240070DB9E /* PLVECRewardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECRewardView.h; sourceTree = "<group>"; };
+		8F8238A326945D240070DB9E /* PLVECRewardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECRewardController.h; sourceTree = "<group>"; };
+		8F8238A526945D240070DB9E /* PLVECFloatingWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECFloatingWindow.h; sourceTree = "<group>"; };
+		8F8238A726945D240070DB9E /* PLVECPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECPlayerViewController.h; sourceTree = "<group>"; };
+		8F8238A826945D240070DB9E /* PLVECPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECPlayerViewController.m; sourceTree = "<group>"; };
+		8F8238A926945D240070DB9E /* PLVECFloatingWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECFloatingWindow.m; sourceTree = "<group>"; };
+		8F8238AB26945D240070DB9E /* PLVECAudioAnimalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECAudioAnimalView.h; sourceTree = "<group>"; };
+		8F8238AC26945D240070DB9E /* PLVECPlayerBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECPlayerBackgroundView.m; sourceTree = "<group>"; };
+		8F8238AD26945D240070DB9E /* PLVECPlayerBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVECPlayerBackgroundView.h; sourceTree = "<group>"; };
+		8F8238AE26945D240070DB9E /* PLVECAudioAnimalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVECAudioAnimalView.m; sourceTree = "<group>"; };
+		8FF0F6262674B4830047DE06 /* RedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
+		8FF0F6272674B4830047DE06 /* RedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
+		8FF0F6292674B5750047DE06 /* BlueView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueView.h; sourceTree = "<group>"; };
+		8FF0F62A2674B5750047DE06 /* BlueView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueView.m; sourceTree = "<group>"; };
+		CAA88D2180E49828477E7D15 /* Pods-LeeJTomLiveScenes-LeeJTomLiveScenesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeeJTomLiveScenes-LeeJTomLiveScenesUITests.debug.xcconfig"; path = "Target Support Files/Pods-LeeJTomLiveScenes-LeeJTomLiveScenesUITests/Pods-LeeJTomLiveScenes-LeeJTomLiveScenesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE5B59009A49317AA6E4A7B5 /* Pods-LeeJTomLiveScenes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeeJTomLiveScenes.release.xcconfig"; path = "Target Support Files/Pods-LeeJTomLiveScenes/Pods-LeeJTomLiveScenes.release.xcconfig"; sourceTree = "<group>"; };
+		F5D53CC4151506FD2CD63D5F /* Pods-LeeJTomLiveScenesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeeJTomLiveScenesTests.release.xcconfig"; path = "Target Support Files/Pods-LeeJTomLiveScenesTests/Pods-LeeJTomLiveScenesTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0448E46A260C1BB400B41603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A61A6D6FBE934F6F73C24C0 /* Pods_LeeJTomLiveScenes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0448E485260C1BB600B41603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5287DC10F8198778BF4B893B /* Pods_LeeJTomLiveScenesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0448E490260C1BB600B41603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C41D978E9C42B09758FC61B /* Pods_LeeJTomLiveScenes_LeeJTomLiveScenesUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0448E464260C1BB400B41603 = {
+			isa = PBXGroup;
+			children = (
+				0448E46F260C1BB400B41603 /* LeeJTomLiveScenes */,
+				0448E48B260C1BB600B41603 /* LeeJTomLiveScenesTests */,
+				0448E496260C1BB600B41603 /* LeeJTomLiveScenesUITests */,
+				0448E46E260C1BB400B41603 /* Products */,
+				3B9E5648A186EB11898A8FF0 /* Pods */,
+				99842B948B721AF5514440AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0448E46E260C1BB400B41603 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0448E46D260C1BB400B41603 /* LeeJTomLiveScenes.app */,
+				0448E488260C1BB600B41603 /* LeeJTomLiveScenesTests.xctest */,
+				0448E493260C1BB600B41603 /* LeeJTomLiveScenesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0448E46F260C1BB400B41603 /* LeeJTomLiveScenes */ = {
+			isa = PBXGroup;
+			children = (
+				0448E4E1260D750100B41603 /* Polyv */,
+				0448E470260C1BB400B41603 /* AppDelegate.h */,
+				0448E471260C1BB400B41603 /* AppDelegate.m */,
+				0448E476260C1BB400B41603 /* ViewController.h */,
+				0448E477260C1BB400B41603 /* ViewController.m */,
+				0448E47C260C1BB600B41603 /* Assets.xcassets */,
+				0448E6F4260D812C00B41603 /* Main.storyboard */,
+				0448E47E260C1BB600B41603 /* LaunchScreen.storyboard */,
+				0448E481260C1BB600B41603 /* Info.plist */,
+				0448E482260C1BB600B41603 /* main.m */,
+				0448E6EB260D7D9300B41603 /* JTomLoginViewController.h */,
+				0448E6EC260D7D9300B41603 /* JTomLoginViewController.m */,
+				8FF0F6262674B4830047DE06 /* RedView.h */,
+				8FF0F6272674B4830047DE06 /* RedView.m */,
+				8FF0F6292674B5750047DE06 /* BlueView.h */,
+				8FF0F62A2674B5750047DE06 /* BlueView.m */,
+				044EEE1E26204CCF008FA96A /* JTBaseNavigationController.h */,
+				044EEE1F26204CCF008FA96A /* JTBaseNavigationController.m */,
+				8F50568A264674E300327205 /* PrefixHeader.pch */,
+			);
+			path = LeeJTomLiveScenes;
+			sourceTree = "<group>";
+		};
+		0448E48B260C1BB600B41603 /* LeeJTomLiveScenesTests */ = {
+			isa = PBXGroup;
+			children = (
+				0448E48C260C1BB600B41603 /* LeeJTomLiveScenesTests.m */,
+				0448E48E260C1BB600B41603 /* Info.plist */,
+			);
+			path = LeeJTomLiveScenesTests;
+			sourceTree = "<group>";
+		};
+		0448E496260C1BB600B41603 /* LeeJTomLiveScenesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0448E497260C1BB600B41603 /* LeeJTomLiveScenesUITests.m */,
+				0448E499260C1BB600B41603 /* Info.plist */,
+			);
+			path = LeeJTomLiveScenesUITests;
+			sourceTree = "<group>";
+		};
+		0448E4E1260D750100B41603 /* Polyv */ = {
+			isa = PBXGroup;
+			children = (
+				8F82375026945D220070DB9E /* PolyvLiveCloudClassScene */,
+				8F8237D226945D230070DB9E /* PolyvLiveCommonModule */,
+				8F82385B26945D230070DB9E /* PolyvLiveEcommerceScene */,
+				0448E6DE260D7B9400B41603 /* PolyvBaseNavigationController */,
+			);
+			path = Polyv;
+			sourceTree = "<group>";
+		};
+		0448E6DE260D7B9400B41603 /* PolyvBaseNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				0448E6E0260D7BD900B41603 /* PLVECBaseNavigationController.h */,
+				0448E6DF260D7BD900B41603 /* PLVECBaseNavigationController.m */,
+			);
+			path = PolyvBaseNavigationController;
+			sourceTree = "<group>";
+		};
+		3B9E5648A186EB11898A8FF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				149929D6FFD6018558A401D3 /* Pods-LeeJTomLiveScenes.debug.xcconfig */,
+				CE5B59009A49317AA6E4A7B5 /* Pods-LeeJTomLiveScenes.release.xcconfig */,
+				CAA88D2180E49828477E7D15 /* Pods-LeeJTomLiveScenes-LeeJTomLiveScenesUITests.debug.xcconfig */,
+				83AC0AFEA43F17B946BBCD35 /* Pods-LeeJTomLiveScenes-LeeJTomLiveScenesUITests.release.xcconfig */,
+				054A75A8D52F20817ADC8E1A /* Pods-LeeJTomLiveScenesTests.debug.xcconfig */,
+				F5D53CC4151506FD2CD63D5F /* Pods-LeeJTomLiveScenesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8F82375026945D220070DB9E /* PolyvLiveCloudClassScene */ = {
+			isa = PBXGroup;
+			children = (
+				8F82375126945D220070DB9E /* Scenes */,
+				8F82375426945D220070DB9E /* Resource */,
+				8F82375C26945D220070DB9E /* Modules */,
+			);
+			path = PolyvLiveCloudClassScene;
+			sourceTree = "<group>";
+		};
+		8F82375126945D220070DB9E /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				8F82375226945D220070DB9E /* PLVLCCloudClassViewController.h */,
+				8F82375326945D220070DB9E /* PLVLCCloudClassViewController.m */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		8F82375426945D220070DB9E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8F82375526945D220070DB9E /* PLVLCUtils.h */,
+				8F82375626945D220070DB9E /* PLVMenu.bundle */,
+				8F82375726945D220070DB9E /* PLVLinkMic.bundle */,
+				8F82375826945D220070DB9E /* PLVLCUtils.m */,
+				8F82375926945D220070DB9E /* PLVMedia.bundle */,
+				8F82375A26945D220070DB9E /* PLVChatroom.bundle */,
+				8F82375B26945D220070DB9E /* PLVLiveRoom.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8F82375C26945D220070DB9E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8F82375D26945D220070DB9E /* LinkMic */,
+				8F82377526945D220070DB9E /* PageMenu */,
+				8F82378826945D220070DB9E /* LiveRoom */,
+				8F82379026945D220070DB9E /* Chatroom */,
+				8F8237B526945D230070DB9E /* Media */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		8F82375D26945D220070DB9E /* LinkMic */ = {
+			isa = PBXGroup;
+			children = (
+				8F82375E26945D220070DB9E /* PLVLCLinkMicAreaView.m */,
+				8F82375F26945D220070DB9E /* Model */,
+				8F82376226945D220070DB9E /* View */,
+				8F82377426945D220070DB9E /* PLVLCLinkMicAreaView.h */,
+			);
+			path = LinkMic;
+			sourceTree = "<group>";
+		};
+		8F82375F26945D220070DB9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F82376026945D220070DB9E /* PLVLinkMicOnlineUser+LC.h */,
+				8F82376126945D220070DB9E /* PLVLinkMicOnlineUser+LC.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F82376226945D220070DB9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F82376326945D220070DB9E /* CanvasView */,
+				8F82376626945D220070DB9E /* WindowsView */,
+				8F82376B26945D220070DB9E /* SpeakingView */,
+				8F82376E26945D220070DB9E /* ControlBar */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F82376326945D220070DB9E /* CanvasView */ = {
+			isa = PBXGroup;
+			children = (
+				8F82376426945D220070DB9E /* PLVLCLinkMicCanvasView.h */,
+				8F82376526945D220070DB9E /* PLVLCLinkMicCanvasView.m */,
+			);
+			path = CanvasView;
+			sourceTree = "<group>";
+		};
+		8F82376626945D220070DB9E /* WindowsView */ = {
+			isa = PBXGroup;
+			children = (
+				8F82376726945D220070DB9E /* PLVLCLinkMicWindowCell.h */,
+				8F82376826945D220070DB9E /* PLVLCLinkMicWindowsView.h */,
+				8F82376926945D220070DB9E /* PLVLCLinkMicWindowCell.m */,
+				8F82376A26945D220070DB9E /* PLVLCLinkMicWindowsView.m */,
+			);
+			path = WindowsView;
+			sourceTree = "<group>";
+		};
+		8F82376B26945D220070DB9E /* SpeakingView */ = {
+			isa = PBXGroup;
+			children = (
+				8F82376C26945D220070DB9E /* PLVLCLinkMicSpeakingView.h */,
+				8F82376D26945D220070DB9E /* PLVLCLinkMicSpeakingView.m */,
+			);
+			path = SpeakingView;
+			sourceTree = "<group>";
+		};
+		8F82376E26945D220070DB9E /* ControlBar */ = {
+			isa = PBXGroup;
+			children = (
+				8F82376F26945D220070DB9E /* PLVLCLinkMicLandscapeControlBar.m */,
+				8F82377026945D220070DB9E /* PLVLCLinkMicPortraitControlBar.m */,
+				8F82377126945D220070DB9E /* PLVLCLinkMicLandscapeControlBar.h */,
+				8F82377226945D220070DB9E /* PLVLCLinkMicPortraitControlBar.h */,
+				8F82377326945D220070DB9E /* PLVLCLinkMicControlBarProtocol.h */,
+			);
+			path = ControlBar;
+			sourceTree = "<group>";
+		};
+		8F82377526945D220070DB9E /* PageMenu */ = {
+			isa = PBXGroup;
+			children = (
+				8F82377626945D220070DB9E /* iframe */,
+				8F82377926945D220070DB9E /* PLVLCLivePageMenuAreaView.h */,
+				8F82377A26945D220070DB9E /* desc */,
+				8F82378126945D220070DB9E /* PLVLCLivePageMenuAreaView.m */,
+				8F82378226945D220070DB9E /* text */,
+				8F82378526945D220070DB9E /* tuwen */,
+			);
+			path = PageMenu;
+			sourceTree = "<group>";
+		};
+		8F82377626945D220070DB9E /* iframe */ = {
+			isa = PBXGroup;
+			children = (
+				8F82377726945D220070DB9E /* PLVLCIframeViewController.h */,
+				8F82377826945D220070DB9E /* PLVLCIframeViewController.m */,
+			);
+			path = iframe;
+			sourceTree = "<group>";
+		};
+		8F82377A26945D220070DB9E /* desc */ = {
+			isa = PBXGroup;
+			children = (
+				8F82377B26945D220070DB9E /* PLVLCDescViewController.m */,
+				8F82377C26945D220070DB9E /* PLVLCDescBottomView.h */,
+				8F82377D26945D220070DB9E /* PLVLCDescTopView.m */,
+				8F82377E26945D220070DB9E /* PLVLCDescBottomView.m */,
+				8F82377F26945D220070DB9E /* PLVLCDescViewController.h */,
+				8F82378026945D220070DB9E /* PLVLCDescTopView.h */,
+			);
+			path = desc;
+			sourceTree = "<group>";
+		};
+		8F82378226945D220070DB9E /* text */ = {
+			isa = PBXGroup;
+			children = (
+				8F82378326945D220070DB9E /* PLVLCTextViewController.m */,
+				8F82378426945D220070DB9E /* PLVLCTextViewController.h */,
+			);
+			path = text;
+			sourceTree = "<group>";
+		};
+		8F82378526945D220070DB9E /* tuwen */ = {
+			isa = PBXGroup;
+			children = (
+				8F82378626945D220070DB9E /* PLVLCTuwenViewController.h */,
+				8F82378726945D220070DB9E /* PLVLCTuwenViewController.m */,
+			);
+			path = tuwen;
+			sourceTree = "<group>";
+		};
+		8F82378826945D220070DB9E /* LiveRoom */ = {
+			isa = PBXGroup;
+			children = (
+				8F82378926945D220070DB9E /* View */,
+			);
+			path = LiveRoom;
+			sourceTree = "<group>";
+		};
+		8F82378926945D220070DB9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F82378A26945D220070DB9E /* SkinView */,
+				8F82378D26945D220070DB9E /* LandscapeInputView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F82378A26945D220070DB9E /* SkinView */ = {
+			isa = PBXGroup;
+			children = (
+				8F82378B26945D220070DB9E /* PLVLCLiveRoomPlayerSkinView.m */,
+				8F82378C26945D220070DB9E /* PLVLCLiveRoomPlayerSkinView.h */,
+			);
+			path = SkinView;
+			sourceTree = "<group>";
+		};
+		8F82378D26945D220070DB9E /* LandscapeInputView */ = {
+			isa = PBXGroup;
+			children = (
+				8F82378E26945D220070DB9E /* PLVLCLiveRoomLandscapeInputView.m */,
+				8F82378F26945D220070DB9E /* PLVLCLiveRoomLandscapeInputView.h */,
+			);
+			path = LandscapeInputView;
+			sourceTree = "<group>";
+		};
+		8F82379026945D220070DB9E /* Chatroom */ = {
+			isa = PBXGroup;
+			children = (
+				8F82379126945D220070DB9E /* PLVLCChatViewController.m */,
+				8F82379226945D220070DB9E /* PLVLCQuizViewController.h */,
+				8F82379326945D220070DB9E /* PLVLCChatroomViewModel.h */,
+				8F82379426945D220070DB9E /* PLVLCChatLandscapeView.m */,
+				8F82379526945D220070DB9E /* Cell */,
+				8F8237A426945D220070DB9E /* PLVLCQuizViewController.m */,
+				8F8237A526945D220070DB9E /* PLVLCChatViewController.h */,
+				8F8237A626945D220070DB9E /* View */,
+				8F8237B326945D230070DB9E /* PLVLCChatroomViewModel.m */,
+				8F8237B426945D230070DB9E /* PLVLCChatLandscapeView.h */,
+			);
+			path = Chatroom;
+			sourceTree = "<group>";
+		};
+		8F82379526945D220070DB9E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8F82379626945D220070DB9E /* PLVLCMessageCell.m */,
+				8F82379726945D220070DB9E /* PLVLCImageMessageCell.h */,
+				8F82379826945D220070DB9E /* PLVLCLandscapeSpeakCell.h */,
+				8F82379926945D220070DB9E /* PLVLCLandscapeQuoteCell.h */,
+				8F82379A26945D220070DB9E /* PLVLCLandscapeImageCell.h */,
+				8F82379B26945D220070DB9E /* PLVLCQuoteMessageCell.m */,
+				8F82379C26945D220070DB9E /* PLVLCSpeakMessageCell.h */,
+				8F82379D26945D220070DB9E /* PLVLCImageMessageCell.m */,
+				8F82379E26945D220070DB9E /* PLVLCMessageCell.h */,
+				8F82379F26945D220070DB9E /* PLVLCLandscapeSpeakCell.m */,
+				8F8237A026945D220070DB9E /* PLVLCQuoteMessageCell.h */,
+				8F8237A126945D220070DB9E /* PLVLCLandscapeImageCell.m */,
+				8F8237A226945D220070DB9E /* PLVLCLandscapeQuoteCell.m */,
+				8F8237A326945D220070DB9E /* PLVLCSpeakMessageCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8F8237A626945D220070DB9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F8237A726945D220070DB9E /* PLVLCChatTextView.h */,
+				8F8237A826945D220070DB9E /* PLVLCLikeButtonView.h */,
+				8F8237A926945D220070DB9E /* PLVLCLandscapeNewMessageView.h */,
+				8F8237AA26945D220070DB9E /* PLVLCNewMessageView.h */,
+				8F8237AB26945D220070DB9E /* PLVLCWelcomeView.m */,
+				8F8237AC26945D220070DB9E /* PLVLCNotifyMarqueeView.h */,
+				8F8237AD26945D220070DB9E /* PLVLCNotifyMarqueeView..m */,
+				8F8237AE26945D230070DB9E /* PLVLCLikeButtonView.m */,
+				8F8237AF26945D230070DB9E /* PLVLCChatTextView.m */,
+				8F8237B026945D230070DB9E /* PLVLCWelcomeView.h */,
+				8F8237B126945D230070DB9E /* PLVLCNewMessageView.m */,
+				8F8237B226945D230070DB9E /* PLVLCLandscapeNewMessageView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F8237B526945D230070DB9E /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				8F8237B626945D230070DB9E /* PLVLCMediaAreaView.h */,
+				8F8237B726945D230070DB9E /* PLVLCMediaAreaView.m */,
+				8F8237B826945D230070DB9E /* Model */,
+				8F8237BB26945D230070DB9E /* View */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		8F8237B826945D230070DB9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F8237B926945D230070DB9E /* PLVLCMediaMoreModel.h */,
+				8F8237BA26945D230070DB9E /* PLVLCMediaMoreModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F8237BB26945D230070DB9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F8237BC26945D230070DB9E /* MoreView */,
+				8F8237C126945D230070DB9E /* SkinView */,
+				8F8237C626945D230070DB9E /* BrightnessView */,
+				8F8237C926945D230070DB9E /* CountdownTimeView */,
+				8F8237CC26945D230070DB9E /* FloatView */,
+				8F8237CF26945D230070DB9E /* PlayerCanvasView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F8237BC26945D230070DB9E /* MoreView */ = {
+			isa = PBXGroup;
+			children = (
+				8F8237BD26945D230070DB9E /* PLVLCMediaMoreView.m */,
+				8F8237BE26945D230070DB9E /* PLVLCMediaMoreCell.m */,
+				8F8237BF26945D230070DB9E /* PLVLCMediaMoreView.h */,
+				8F8237C026945D230070DB9E /* PLVLCMediaMoreCell.h */,
+			);
+			path = MoreView;
+			sourceTree = "<group>";
+		};
+		8F8237C126945D230070DB9E /* SkinView */ = {
+			isa = PBXGroup;
+			children = (
+				8F8237C226945D230070DB9E /* PLVLCMediaPlayerSkinView.h */,
+				8F8237C326945D230070DB9E /* PLVLCBasePlayerSkinView.h */,
+				8F8237C426945D230070DB9E /* PLVLCMediaPlayerSkinView.m */,
+				8F8237C526945D230070DB9E /* PLVLCBasePlayerSkinView.m */,
+			);
+			path = SkinView;
+			sourceTree = "<group>";
+		};
+		8F8237C626945D230070DB9E /* BrightnessView */ = {
+			isa = PBXGroup;
+			children = (
+				8F8237C726945D230070DB9E /* PLVLCMediaBrightnessView.h */,
+				8F8237C826945D230070DB9E /* PLVLCMediaBrightnessView.m */,
+			);
+			path = BrightnessView;
+			sourceTree = "<group>";
+		};
+		8F8237C926945D230070DB9E /* CountdownTimeView */ = {
+			isa = PBXGroup;
+			children = (
+				8F8237CA26945D230070DB9E /* PLVLCMediaCountdownTimeView.h */,
+				8F8237CB26945D230070DB9E /* PLVLCMediaCountdownTimeView.m */,
+			);
+			path = CountdownTimeView;
+			sourceTree = "<group>";
+		};
+		8F8237CC26945D230070DB9E /* FloatView */ = {
+			isa = PBXGroup;
+			children = (
+				8F8237CD26945D230070DB9E /* PLVLCMediaFloatView.h */,
+				8F8237CE26945D230070DB9E /* PLVLCMediaFloatView.m */,
+			);
+			path = FloatView;
+			sourceTree = "<group>";
+		};
+		8F8237CF26945D230070DB9E /* PlayerCanvasView */ = {
+			isa = PBXGroup;
+			children = (
+				8F8237D026945D230070DB9E /* PLVLCMediaPlayerCanvasView.m */,
+				8F8237D126945D230070DB9E /* PLVLCMediaPlayerCanvasView.h */,
+			);
+			path = PlayerCanvasView;
+			sourceTree = "<group>";
+		};
+		8F8237D226945D230070DB9E /* PolyvLiveCommonModule */ = {
+			isa = PBXGroup;
+			children = (
+				8F8237D326945D230070DB9E /* GeneralUI */,
+				8F82382826945D230070DB9E /* Modules */,
+			);
+			path = PolyvLiveCommonModule;
+			sourceTree = "<group>";
+		};
+		8F8237D326945D230070DB9E /* GeneralUI */ = {
+			isa = PBXGroup;
+			children = (
+				8F8237D426945D230070DB9E /* PLVEmoticons */,
+				8F8237DA26945D230070DB9E /* PLVPageController */,
+				8F8237DF26945D230070DB9E /* PLVMarquee */,
+				8F8237E226945D230070DB9E /* PLVPlayerLogoView */,
+				8F8237E526945D230070DB9E /* PLVDanMu */,
+				8F8237EB26945D230070DB9E /* PLVProgressSlider */,
+				8F8237EE26945D230070DB9E /* PLVAlbumView */,
+				8F82381126945D230070DB9E /* PLVBaseNavigation */,
+				8F82381426945D230070DB9E /* PLVPhotoBrowser */,
+				8F82381826945D230070DB9E /* PLVKeyboard */,
+				8F82382526945D230070DB9E /* PLVAdvView */,
+			);
+			path = GeneralUI;
+			sourceTree = "<group>";
+		};
+		8F8237D426945D230070DB9E /* PLVEmoticons */ = {
+			isa = PBXGroup;
+			children = (
+				8F8237D526945D230070DB9E /* PLVEmoticonManager.m */,
+				8F8237D626945D230070DB9E /* PLVEmoticonManager.h */,
+				8F8237D726945D230070DB9E /* Resource */,
+			);
+			path = PLVEmoticons;
+			sourceTree = "<group>";
+		};
+		8F8237D726945D230070DB9E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8F8237D826945D230070DB9E /* PLVEmoticon.plist */,
+				8F8237D926945D230070DB9E /* PLVEmoticons.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8F8237DA26945D230070DB9E /* PLVPageController */ = {
+			isa = PBXGroup;
+			children = (
+				8F8237DB26945D230070DB9E /* PLVPageController.m */,
+				8F8237DC26945D230070DB9E /* PLVPageViewCell.m */,
+				8F8237DD26945D230070DB9E /* PLVPageController.h */,
+				8F8237DE26945D230070DB9E /* PLVPageViewCell.h */,
+			);
+			path = PLVPageController;
+			sourceTree = "<group>";
+		};
+		8F8237DF26945D230070DB9E /* PLVMarquee */ = {
+			isa = PBXGroup;
+			children = (
+				8F8237E026945D230070DB9E /* PLVMarqueeLabel.m */,
+				8F8237E126945D230070DB9E /* PLVMarqueeLabel.h */,
+			);
+			path = PLVMarquee;
+			sourceTree = "<group>";
+		};
+		8F8237E226945D230070DB9E /* PLVPlayerLogoView */ = {
+			isa = PBXGroup;
+			children = (
+				8F8237E326945D230070DB9E /* PLVPlayerLogoView.h */,
+				8F8237E426945D230070DB9E /* PLVPlayerLogoView.m */,
+			);
+			path = PLVPlayerLogoView;
+			sourceTree = "<group>";
+		};
+		8F8237E526945D230070DB9E /* PLVDanMu */ = {
+			isa = PBXGroup;
+			children = (
+				8F8237E626945D230070DB9E /* PLVDanMuLabel.h */,
+				8F8237E726945D230070DB9E /* PLVDanMu.h */,
+				8F8237E826945D230070DB9E /* PLVDanMuLabel.m */,
+				8F8237E926945D230070DB9E /* PLVDanMuDefine.h */,
+				8F8237EA26945D230070DB9E /* PLVdanmu.m */,
+			);
+			path = PLVDanMu;
+			sourceTree = "<group>";
+		};
+		8F8237EB26945D230070DB9E /* PLVProgressSlider */ = {
+			isa = PBXGroup;
+			children = (
+				8F8237EC26945D230070DB9E /* PLVProgressSlider.m */,
+				8F8237ED26945D230070DB9E /* PLVProgressSlider.h */,
+			);
+			path = PLVProgressSlider;
+			sourceTree = "<group>";
+		};
+		8F8237EE26945D230070DB9E /* PLVAlbumView */ = {
+			isa = PBXGroup;
+			children = (
+				8F8237EF26945D230070DB9E /* Utils */,
+				8F8237F526945D230070DB9E /* Controller */,
+				8F82380226945D230070DB9E /* Model */,
+				8F82380726945D230070DB9E /* View */,
+				8F82381026945D230070DB9E /* PLVAlbum.bundle */,
+			);
+			path = PLVAlbumView;
+			sourceTree = "<group>";
+		};
+		8F8237EF26945D230070DB9E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8F8237F026945D230070DB9E /* PLVWebImageDecoder.h */,
+				8F8237F126945D230070DB9E /* PLVAlbumTool.m */,
+				8F8237F226945D230070DB9E /* PLVWebImageDecoder.m */,
+				8F8237F326945D230070DB9E /* PLVPicDefine.h */,
+				8F8237F426945D230070DB9E /* PLVAlbumTool.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8F8237F526945D230070DB9E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F8237F626945D230070DB9E /* PLVCameraViewController.m */,
+				8F8237F726945D230070DB9E /* PLVAlbumsViewController.h */,
+				8F8237F826945D230070DB9E /* PLVPickerController.m */,
+				8F8237F926945D230070DB9E /* PLVPhotoPreBaseViewController.m */,
+				8F8237FA26945D230070DB9E /* PLVAlbumNavigationController.m */,
+				8F8237FB26945D230070DB9E /* PLVPhotoPreViewController.m */,
+				8F8237FC26945D230070DB9E /* PLVPickerController.h */,
+				8F8237FD26945D230070DB9E /* PLVAlbumsViewController.m */,
+				8F8237FE26945D230070DB9E /* PLVCameraViewController.h */,
+				8F8237FF26945D230070DB9E /* PLVAlbumNavigationController.h */,
+				8F82380026945D230070DB9E /* PLVPhotoPreBaseViewController.h */,
+				8F82380126945D230070DB9E /* PLVPhotoPreViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F82380226945D230070DB9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F82380326945D230070DB9E /* PLVAlbumInfo.m */,
+				8F82380426945D230070DB9E /* PLVImageInfo.m */,
+				8F82380526945D230070DB9E /* PLVAlbumInfo.h */,
+				8F82380626945D230070DB9E /* PLVImageInfo.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F82380726945D230070DB9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F82380826945D230070DB9E /* PLVPhotoCollectionFooterView.h */,
+				8F82380926945D230070DB9E /* PLVPreCollectionViewCell.m */,
+				8F82380A26945D230070DB9E /* PLVAlbumTableViewCell.h */,
+				8F82380B26945D230070DB9E /* PLVPhotoCollectionViewCell.h */,
+				8F82380C26945D230070DB9E /* PLVPreCollectionViewCell.h */,
+				8F82380D26945D230070DB9E /* PLVPhotoCollectionFooterView.m */,
+				8F82380E26945D230070DB9E /* PLVAlbumTableViewCell.m */,
+				8F82380F26945D230070DB9E /* PLVPhotoCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F82381126945D230070DB9E /* PLVBaseNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				8F82381226945D230070DB9E /* PLVBaseNavigationController.m */,
+				8F82381326945D230070DB9E /* PLVBaseNavigationController.h */,
+			);
+			path = PLVBaseNavigation;
+			sourceTree = "<group>";
+		};
+		8F82381426945D230070DB9E /* PLVPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				8F82381526945D230070DB9E /* PLVPhotoBrowser.m */,
+				8F82381626945D230070DB9E /* PLVPhotoBrowser.bundle */,
+				8F82381726945D230070DB9E /* PLVPhotoBrowser.h */,
+			);
+			path = PLVPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		8F82381826945D230070DB9E /* PLVKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8F82381926945D230070DB9E /* PLVEmojiSelectView.h */,
+				8F82381A26945D230070DB9E /* PLVKeyboardToolView.h */,
+				8F82381B26945D230070DB9E /* PLVKeyboardTextView.m */,
+				8F82381C26945D230070DB9E /* PLVKeyboardMoreView.h */,
+				8F82381D26945D230070DB9E /* PLVEmojiSelectView.m */,
+				8F82381E26945D230070DB9E /* PLVKeyboardToolView.m */,
+				8F82381F26945D230070DB9E /* Resource */,
+				8F82382326945D230070DB9E /* PLVKeyboardMoreView.m */,
+				8F82382426945D230070DB9E /* PLVKeyboardTextView.h */,
+			);
+			path = PLVKeyboard;
+			sourceTree = "<group>";
+		};
+		8F82381F26945D230070DB9E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8F82382026945D230070DB9E /* PLVKeyboardUtils.h */,
+				8F82382126945D230070DB9E /* PLVKeyboard.bundle */,
+				8F82382226945D230070DB9E /* PLVKeyboardUtils.m */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8F82382526945D230070DB9E /* PLVAdvView */ = {
+			isa = PBXGroup;
+			children = (
+				8F82382626945D230070DB9E /* PLVAdvView.h */,
+				8F82382726945D230070DB9E /* PLVAdvView.m */,
+			);
+			path = PLVAdvView;
+			sourceTree = "<group>";
+		};
+		8F82382826945D230070DB9E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8F82382926945D230070DB9E /* LinkMic */,
+				8F82383026945D230070DB9E /* Room */,
+				8F82383A26945D230070DB9E /* Chatroom */,
+				8F82384226945D230070DB9E /* PPT */,
+				8F82384526945D230070DB9E /* Bugly */,
+				8F82384826945D230070DB9E /* Interact */,
+				8F82385726945D230070DB9E /* Player */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		8F82382926945D230070DB9E /* LinkMic */ = {
+			isa = PBXGroup;
+			children = (
+				8F82382A26945D230070DB9E /* Presenter */,
+				8F82382D26945D230070DB9E /* Models */,
+			);
+			path = LinkMic;
+			sourceTree = "<group>";
+		};
+		8F82382A26945D230070DB9E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8F82382B26945D230070DB9E /* PLVLinkMicPresenter.h */,
+				8F82382C26945D230070DB9E /* PLVLinkMicPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8F82382D26945D230070DB9E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8F82382E26945D230070DB9E /* PLVLinkMicOnlineUser.h */,
+				8F82382F26945D230070DB9E /* PLVLinkMicOnlineUser.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8F82383026945D230070DB9E /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				8F82383126945D230070DB9E /* PLVRoomLoginClient.h */,
+				8F82383226945D230070DB9E /* PLVRoomDataManager.m */,
+				8F82383326945D230070DB9E /* PLVRoomLoginClient.m */,
+				8F82383426945D230070DB9E /* Model */,
+				8F82383926945D230070DB9E /* PLVRoomDataManager.h */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		8F82383426945D230070DB9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F82383526945D230070DB9E /* PLVRoomUser.h */,
+				8F82383626945D230070DB9E /* PLVRoomData.m */,
+				8F82383726945D230070DB9E /* PLVRoomUser.m */,
+				8F82383826945D230070DB9E /* PLVRoomData.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F82383A26945D230070DB9E /* Chatroom */ = {
+			isa = PBXGroup;
+			children = (
+				8F82383B26945D230070DB9E /* PLVChatroomPresenter.m */,
+				8F82383C26945D230070DB9E /* Models */,
+				8F82384126945D230070DB9E /* PLVChatroomPresenter.h */,
+			);
+			path = Chatroom;
+			sourceTree = "<group>";
+		};
+		8F82383C26945D230070DB9E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8F82383D26945D230070DB9E /* PLVChatModel.h */,
+				8F82383E26945D230070DB9E /* PLVChatUser.h */,
+				8F82383F26945D230070DB9E /* PLVChatModel.m */,
+				8F82384026945D230070DB9E /* PLVChatUser.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8F82384226945D230070DB9E /* PPT */ = {
+			isa = PBXGroup;
+			children = (
+				8F82384326945D230070DB9E /* PLVPPTView.m */,
+				8F82384426945D230070DB9E /* PLVPPTView.h */,
+			);
+			path = PPT;
+			sourceTree = "<group>";
+		};
+		8F82384526945D230070DB9E /* Bugly */ = {
+			isa = PBXGroup;
+			children = (
+				8F82384626945D230070DB9E /* PLVBugReporter.h */,
+				8F82384726945D230070DB9E /* PLVBugReporter.m */,
+			);
+			path = Bugly;
+			sourceTree = "<group>";
+		};
+		8F82384826945D230070DB9E /* Interact */ = {
+			isa = PBXGroup;
+			children = (
+				8F82384926945D230070DB9E /* PLVInteractQuestionnaire.h */,
+				8F82384A26945D230070DB9E /* PLVInteractAnswer.h */,
+				8F82384B26945D230070DB9E /* PLVInteractLottery.h */,
+				8F82384C26945D230070DB9E /* PLVInteractBulletin.h */,
+				8F82384D26945D230070DB9E /* PLVInteractBaseApp+General.h */,
+				8F82384E26945D230070DB9E /* PLVInteractView.h */,
+				8F82384F26945D230070DB9E /* PLVInteractSignIn.h */,
+				8F82385026945D230070DB9E /* PLVInteractQuestionnaire.m */,
+				8F82385126945D230070DB9E /* PLVInteractBulletin.m */,
+				8F82385226945D230070DB9E /* PLVInteractLottery.m */,
+				8F82385326945D230070DB9E /* PLVInteractAnswer.m */,
+				8F82385426945D230070DB9E /* PLVInteractView.m */,
+				8F82385526945D230070DB9E /* PLVInteractBaseApp+General.m */,
+				8F82385626945D230070DB9E /* PLVInteractSignIn.m */,
+			);
+			path = Interact;
+			sourceTree = "<group>";
+		};
+		8F82385726945D230070DB9E /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				8F82385826945D230070DB9E /* Presenters */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		8F82385826945D230070DB9E /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				8F82385926945D230070DB9E /* PLVPlayerPresenter.h */,
+				8F82385A26945D230070DB9E /* PLVPlayerPresenter.m */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		8F82385B26945D230070DB9E /* PolyvLiveEcommerceScene */ = {
+			isa = PBXGroup;
+			children = (
+				8F82385C26945D230070DB9E /* Scenes */,
+				8F82387B26945D240070DB9E /* Resource */,
+				8F82387F26945D240070DB9E /* Modules */,
+			);
+			path = PolyvLiveEcommerceScene;
+			sourceTree = "<group>";
+		};
+		8F82385C26945D230070DB9E /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				8F82385D26945D230070DB9E /* HomePage */,
+				8F82386F26945D230070DB9E /* PLVECWatchRoomViewController.h */,
+				8F82387026945D230070DB9E /* DetailPage */,
+				8F82387A26945D240070DB9E /* PLVECWatchRoomViewController.m */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		8F82385D26945D230070DB9E /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				8F82385E26945D230070DB9E /* PLVECHomePageView.m */,
+				8F82385F26945D230070DB9E /* PLVECHomePageView.h */,
+				8F82386026945D230070DB9E /* View */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		8F82386026945D230070DB9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F82386126945D230070DB9E /* PLVECSwitchView.h */,
+				8F82386226945D230070DB9E /* PLVECLiveRoomInfoView.h */,
+				8F82386326945D230070DB9E /* PLVECBottomView.m */,
+				8F82386426945D230070DB9E /* PLVECLikeButtonView.m */,
+				8F82386526945D230070DB9E /* PLVECPlayerContolView.m */,
+				8F82386626945D230070DB9E /* PLVECMoreView.m */,
+				8F82386726945D230070DB9E /* PLVECBulletinView.h */,
+				8F82386826945D230070DB9E /* PLVECLiveRoomInfoView.m */,
+				8F82386926945D230070DB9E /* PLVECSwitchView.m */,
+				8F82386A26945D230070DB9E /* PLVECLikeButtonView.h */,
+				8F82386B26945D230070DB9E /* PLVECBottomView.h */,
+				8F82386C26945D230070DB9E /* PLVECPlayerContolView.h */,
+				8F82386D26945D230070DB9E /* PLVECBulletinView.m */,
+				8F82386E26945D230070DB9E /* PLVECMoreView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F82387026945D230070DB9E /* DetailPage */ = {
+			isa = PBXGroup;
+			children = (
+				8F82387126945D230070DB9E /* PLVECLiveDetailPageView.m */,
+				8F82387226945D230070DB9E /* View */,
+				8F82387926945D230070DB9E /* PLVECLiveDetailPageView.h */,
+			);
+			path = DetailPage;
+			sourceTree = "<group>";
+		};
+		8F82387226945D230070DB9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F82387326945D230070DB9E /* PLVECBulletinCardView.m */,
+				8F82387426945D230070DB9E /* PLVECLiveIntroductionCardView.h */,
+				8F82387526945D230070DB9E /* PLVECCardView.m */,
+				8F82387626945D230070DB9E /* PLVECBulletinCardView.h */,
+				8F82387726945D230070DB9E /* PLVECLiveIntroductionCardView.m */,
+				8F82387826945D230070DB9E /* PLVECCardView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F82387B26945D240070DB9E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8F82387C26945D240070DB9E /* PLVECUtils.h */,
+				8F82387D26945D240070DB9E /* PLVECUtils.m */,
+				8F82387E26945D240070DB9E /* WatchResource.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8F82387F26945D240070DB9E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8F82388026945D240070DB9E /* Commodity */,
+				8F82388F26945D240070DB9E /* Chatroom */,
+				8F82389C26945D240070DB9E /* Reward */,
+				8F8238A426945D240070DB9E /* Player */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		8F82388026945D240070DB9E /* Commodity */ = {
+			isa = PBXGroup;
+			children = (
+				8F82388126945D240070DB9E /* PLVECGoodsDetailViewController.h */,
+				8F82388226945D240070DB9E /* PLVECCommodityModelsManager.h */,
+				8F82388326945D240070DB9E /* PLVECCommodityViewController.h */,
+				8F82388426945D240070DB9E /* Cell */,
+				8F82388726945D240070DB9E /* PLVECGoodsDetailViewController.m */,
+				8F82388826945D240070DB9E /* View */,
+				8F82388D26945D240070DB9E /* PLVECCommodityModelsManager.m */,
+				8F82388E26945D240070DB9E /* PLVECCommodityViewController.m */,
+			);
+			path = Commodity;
+			sourceTree = "<group>";
+		};
+		8F82388426945D240070DB9E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8F82388526945D240070DB9E /* PLVECCommodityCell.m */,
+				8F82388626945D240070DB9E /* PLVECCommodityCell.h */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8F82388826945D240070DB9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F82388926945D240070DB9E /* PLVECCommodityPushView.m */,
+				8F82388A26945D240070DB9E /* PLVECCommodityView.m */,
+				8F82388B26945D240070DB9E /* PLVECCommodityPushView.h */,
+				8F82388C26945D240070DB9E /* PLVECCommodityView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F82388F26945D240070DB9E /* Chatroom */ = {
+			isa = PBXGroup;
+			children = (
+				8F82389026945D240070DB9E /* PLVECChatroomViewModel.h */,
+				8F82389126945D240070DB9E /* Cell */,
+				8F82389426945D240070DB9E /* PLVECChatroomViewModel.m */,
+				8F82389526945D240070DB9E /* Views */,
+			);
+			path = Chatroom;
+			sourceTree = "<group>";
+		};
+		8F82389126945D240070DB9E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8F82389226945D240070DB9E /* PLVECChatCell.m */,
+				8F82389326945D240070DB9E /* PLVECChatCell.h */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8F82389526945D240070DB9E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F82389626945D240070DB9E /* PLVECChatroomView.m */,
+				8F82389726945D240070DB9E /* PLVECWelcomView.h */,
+				8F82389826945D240070DB9E /* PLVECNewMessageView.m */,
+				8F82389926945D240070DB9E /* PLVECChatroomView.h */,
+				8F82389A26945D240070DB9E /* PLVECWelcomView.m */,
+				8F82389B26945D240070DB9E /* PLVECNewMessageView.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8F82389C26945D240070DB9E /* Reward */ = {
+			isa = PBXGroup;
+			children = (
+				8F82389D26945D240070DB9E /* PLVECRewardController.m */,
+				8F82389E26945D240070DB9E /* View */,
+				8F8238A326945D240070DB9E /* PLVECRewardController.h */,
+			);
+			path = Reward;
+			sourceTree = "<group>";
+		};
+		8F82389E26945D240070DB9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F82389F26945D240070DB9E /* PLVECGiftView.m */,
+				8F8238A026945D240070DB9E /* PLVECRewardView.m */,
+				8F8238A126945D240070DB9E /* PLVECGiftView.h */,
+				8F8238A226945D240070DB9E /* PLVECRewardView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F8238A426945D240070DB9E /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				8F8238A526945D240070DB9E /* PLVECFloatingWindow.h */,
+				8F8238A626945D240070DB9E /* Controller */,
+				8F8238A926945D240070DB9E /* PLVECFloatingWindow.m */,
+				8F8238AA26945D240070DB9E /* views */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		8F8238A626945D240070DB9E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F8238A726945D240070DB9E /* PLVECPlayerViewController.h */,
+				8F8238A826945D240070DB9E /* PLVECPlayerViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F8238AA26945D240070DB9E /* views */ = {
+			isa = PBXGroup;
+			children = (
+				8F8238AB26945D240070DB9E /* PLVECAudioAnimalView.h */,
+				8F8238AC26945D240070DB9E /* PLVECPlayerBackgroundView.m */,
+				8F8238AD26945D240070DB9E /* PLVECPlayerBackgroundView.h */,
+				8F8238AE26945D240070DB9E /* PLVECAudioAnimalView.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		99842B948B721AF5514440AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BC0F007143D840CB3780CE6 /* Pods_LeeJTomLiveScenes.framework */,
+				6FC55E238FFC13DC8F8DBF2D /* Pods_LeeJTomLiveScenes_LeeJTomLiveScenesUITests.framework */,
+				2CA8A72CEE506BD419A15241 /* Pods_LeeJTomLiveScenesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0448E46C260C1BB400B41603 /* LeeJTomLiveScenes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0448E49C260C1BB600B41603 /* Build configuration list for PBXNativeTarget "LeeJTomLiveScenes" */;
+			buildPhases = (
+				509B036ACE4886A391C8ECF4 /* [CP] Check Pods Manifest.lock */,
+				0448E469260C1BB400B41603 /* Sources */,
+				0448E46A260C1BB400B41603 /* Frameworks */,
+				0448E46B260C1BB400B41603 /* Resources */,
+				243D4DBA41DD5337DB2CFC43 /* [CP] Embed Pods Frameworks */,
+				8F6DBA8F2689B45A00AC71AE /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeeJTomLiveScenes;
+			productName = LeeJTomLiveScenes;
+			productReference = 0448E46D260C1BB400B41603 /* LeeJTomLiveScenes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0448E487260C1BB600B41603 /* LeeJTomLiveScenesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0448E49F260C1BB600B41603 /* Build configuration list for PBXNativeTarget "LeeJTomLiveScenesTests" */;
+			buildPhases = (
+				7D4FC0901DDD848DB531BF96 /* [CP] Check Pods Manifest.lock */,
+				0448E484260C1BB600B41603 /* Sources */,
+				0448E485260C1BB600B41603 /* Frameworks */,
+				0448E486260C1BB600B41603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0448E48A260C1BB600B41603 /* PBXTargetDependency */,
+			);
+			name = LeeJTomLiveScenesTests;
+			productName = LeeJTomLiveScenesTests;
+			productReference = 0448E488260C1BB600B41603 /* LeeJTomLiveScenesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0448E492260C1BB600B41603 /* LeeJTomLiveScenesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0448E4A2260C1BB600B41603 /* Build configuration list for PBXNativeTarget "LeeJTomLiveScenesUITests" */;
+			buildPhases = (
+				0FC67CEDE3CD889CB647CF62 /* [CP] Check Pods Manifest.lock */,
+				0448E48F260C1BB600B41603 /* Sources */,
+				0448E490260C1BB600B41603 /* Frameworks */,
+				0448E491260C1BB600B41603 /* Resources */,
+				BF1C356B26490A6665BFA077 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0448E495260C1BB600B41603 /* PBXTargetDependency */,
+			);
+			name = LeeJTomLiveScenesUITests;
+			productName = LeeJTomLiveScenesUITests;
+			productReference = 0448E493260C1BB600B41603 /* LeeJTomLiveScenesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0448E465260C1BB400B41603 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					0448E46C260C1BB400B41603 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					0448E487260C1BB600B41603 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 0448E46C260C1BB400B41603;
+					};
+					0448E492260C1BB600B41603 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 0448E46C260C1BB400B41603;
+					};
+				};
+			};
+			buildConfigurationList = 0448E468260C1BB400B41603 /* Build configuration list for PBXProject "LeeJTomLiveScenes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0448E464260C1BB400B41603;
+			productRefGroup = 0448E46E260C1BB400B41603 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0448E46C260C1BB400B41603 /* LeeJTomLiveScenes */,
+				0448E487260C1BB600B41603 /* LeeJTomLiveScenesTests */,
+				0448E492260C1BB600B41603 /* LeeJTomLiveScenesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0448E46B260C1BB400B41603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8238E326945D240070DB9E /* PLVEmoticon.plist in Resources */,
+				8F8238B126945D240070DB9E /* PLVLinkMic.bundle in Resources */,
+				8F82390126945D240070DB9E /* PLVKeyboard.bundle in Resources */,
+				8F8238FD26945D240070DB9E /* PLVPhotoBrowser.bundle in Resources */,
+				8F8238E426945D240070DB9E /* PLVEmoticons.bundle in Resources */,
+				8F82392626945D240070DB9E /* WatchResource.bundle in Resources */,
+				8F8238B526945D240070DB9E /* PLVLiveRoom.bundle in Resources */,
+				8F8238B326945D240070DB9E /* PLVMedia.bundle in Resources */,
+				0448E480260C1BB600B41603 /* LaunchScreen.storyboard in Resources */,
+				8F8238B426945D240070DB9E /* PLVChatroom.bundle in Resources */,
+				8F8238B026945D240070DB9E /* PLVMenu.bundle in Resources */,
+				0448E47D260C1BB600B41603 /* Assets.xcassets in Resources */,
+				0448E6F6260D812C00B41603 /* Main.storyboard in Resources */,
+				8F8238FA26945D240070DB9E /* PLVAlbum.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0448E486260C1BB600B41603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0448E491260C1BB600B41603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FC67CEDE3CD889CB647CF62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LeeJTomLiveScenes-LeeJTomLiveScenesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		243D4DBA41DD5337DB2CFC43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeeJTomLiveScenes/Pods-LeeJTomLiveScenes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeeJTomLiveScenes/Pods-LeeJTomLiveScenes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LeeJTomLiveScenes/Pods-LeeJTomLiveScenes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		509B036ACE4886A391C8ECF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LeeJTomLiveScenes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D4FC0901DDD848DB531BF96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LeeJTomLiveScenesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF1C356B26490A6665BFA077 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeeJTomLiveScenes-LeeJTomLiveScenesUITests/Pods-LeeJTomLiveScenes-LeeJTomLiveScenesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeeJTomLiveScenes-LeeJTomLiveScenesUITests/Pods-LeeJTomLiveScenes-LeeJTomLiveScenesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LeeJTomLiveScenes-LeeJTomLiveScenesUITests/Pods-LeeJTomLiveScenes-LeeJTomLiveScenesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0448E469260C1BB400B41603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0448E6ED260D7D9300B41603 /* JTomLoginViewController.m in Sources */,
+				8F82392D26945D240070DB9E /* PLVECChatCell.m in Sources */,
+				044EEE2026204CCF008FA96A /* JTBaseNavigationController.m in Sources */,
+				8F8238C126945D240070DB9E /* PLVLCDescBottomView.m in Sources */,
+				8F8238D626945D240070DB9E /* PLVLCLandscapeNewMessageView.m in Sources */,
+				8F8238E626945D240070DB9E /* PLVPageViewCell.m in Sources */,
+				8F8238C526945D240070DB9E /* PLVLCLiveRoomPlayerSkinView.m in Sources */,
+				8F82390A26945D240070DB9E /* PLVRoomUser.m in Sources */,
+				8F8238BA26945D240070DB9E /* PLVLCLinkMicWindowsView.m in Sources */,
+				8F8238B726945D240070DB9E /* PLVLinkMicOnlineUser+LC.m in Sources */,
+				8F8238CA26945D240070DB9E /* PLVLCQuoteMessageCell.m in Sources */,
+				8F8238B826945D240070DB9E /* PLVLCLinkMicCanvasView.m in Sources */,
+				8F8238BD26945D240070DB9E /* PLVLCLinkMicPortraitControlBar.m in Sources */,
+				8F8238C426945D240070DB9E /* PLVLCTuwenViewController.m in Sources */,
+				0448E6E1260D7BD900B41603 /* PLVECBaseNavigationController.m in Sources */,
+				8F82392C26945D240070DB9E /* PLVECCommodityViewController.m in Sources */,
+				8F8238EE26945D240070DB9E /* PLVCameraViewController.m in Sources */,
+				8F8238F626945D240070DB9E /* PLVPreCollectionViewCell.m in Sources */,
+				8F8238B926945D240070DB9E /* PLVLCLinkMicWindowCell.m in Sources */,
+				8F82390E26945D240070DB9E /* PLVPPTView.m in Sources */,
+				8F82392026945D240070DB9E /* PLVECLiveDetailPageView.m in Sources */,
+				8F8238D526945D240070DB9E /* PLVLCNewMessageView.m in Sources */,
+				8F8238C326945D240070DB9E /* PLVLCTextViewController.m in Sources */,
+				0448E478260C1BB400B41603 /* ViewController.m in Sources */,
+				8F8238CF26945D240070DB9E /* PLVLCSpeakMessageCell.m in Sources */,
+				8F82390326945D240070DB9E /* PLVKeyboardMoreView.m in Sources */,
+				8F82391926945D240070DB9E /* PLVECBottomView.m in Sources */,
+				8F8238E526945D240070DB9E /* PLVPageController.m in Sources */,
+				8F8238EF26945D240070DB9E /* PLVPickerController.m in Sources */,
+				8F82390226945D240070DB9E /* PLVKeyboardUtils.m in Sources */,
+				8F8238DB26945D240070DB9E /* PLVLCMediaMoreCell.m in Sources */,
+				8F82391026945D240070DB9E /* PLVInteractQuestionnaire.m in Sources */,
+				8F8238F926945D240070DB9E /* PLVPhotoCollectionViewCell.m in Sources */,
+				8F82391B26945D240070DB9E /* PLVECPlayerContolView.m in Sources */,
+				8F82391326945D240070DB9E /* PLVInteractAnswer.m in Sources */,
+				8F8238ED26945D240070DB9E /* PLVWebImageDecoder.m in Sources */,
+				8F8238F426945D240070DB9E /* PLVAlbumInfo.m in Sources */,
+				8F8238DF26945D240070DB9E /* PLVLCMediaCountdownTimeView.m in Sources */,
+				8F82392A26945D240070DB9E /* PLVECCommodityView.m in Sources */,
+				8F82391626945D240070DB9E /* PLVInteractSignIn.m in Sources */,
+				8F8238BE26945D240070DB9E /* PLVLCIframeViewController.m in Sources */,
+				8F8238D426945D240070DB9E /* PLVLCChatTextView.m in Sources */,
+				8F82393526945D240070DB9E /* PLVECPlayerViewController.m in Sources */,
+				8F8238FF26945D240070DB9E /* PLVEmojiSelectView.m in Sources */,
+				8F82391726945D240070DB9E /* PLVPlayerPresenter.m in Sources */,
+				8FF0F6282674B4830047DE06 /* RedView.m in Sources */,
+				8F8238D726945D240070DB9E /* PLVLCChatroomViewModel.m in Sources */,
+				8F8238C626945D240070DB9E /* PLVLCLiveRoomLandscapeInputView.m in Sources */,
+				8F82392926945D240070DB9E /* PLVECCommodityPushView.m in Sources */,
+				8F82392726945D240070DB9E /* PLVECCommodityCell.m in Sources */,
+				8F8238D026945D240070DB9E /* PLVLCQuizViewController.m in Sources */,
+				8F8238E226945D240070DB9E /* PLVEmoticonManager.m in Sources */,
+				8F82393026945D240070DB9E /* PLVECNewMessageView.m in Sources */,
+				8F8238E926945D240070DB9E /* PLVDanMuLabel.m in Sources */,
+				8F8238D926945D240070DB9E /* PLVLCMediaMoreModel.m in Sources */,
+				8F8238D826945D240070DB9E /* PLVLCMediaAreaView.m in Sources */,
+				8F8238D126945D240070DB9E /* PLVLCWelcomeView.m in Sources */,
+				8F82391F26945D240070DB9E /* PLVECBulletinView.m in Sources */,
+				8F82392526945D240070DB9E /* PLVECUtils.m in Sources */,
+				8F82390026945D240070DB9E /* PLVKeyboardToolView.m in Sources */,
+				8F8238C226945D240070DB9E /* PLVLCLivePageMenuAreaView.m in Sources */,
+				8F82390F26945D240070DB9E /* PLVBugReporter.m in Sources */,
+				8F82393426945D240070DB9E /* PLVECRewardView.m in Sources */,
+				0448E472260C1BB400B41603 /* AppDelegate.m in Sources */,
+				8F8238F826945D240070DB9E /* PLVAlbumTableViewCell.m in Sources */,
+				8F8238C926945D240070DB9E /* PLVLCMessageCell.m in Sources */,
+				8F82390926945D240070DB9E /* PLVRoomData.m in Sources */,
+				8F8238E026945D240070DB9E /* PLVLCMediaFloatView.m in Sources */,
+				8F82390426945D240070DB9E /* PLVAdvView.m in Sources */,
+				8F8238E126945D240070DB9E /* PLVLCMediaPlayerCanvasView.m in Sources */,
+				8F8238DC26945D240070DB9E /* PLVLCMediaPlayerSkinView.m in Sources */,
+				8F82393626945D240070DB9E /* PLVECFloatingWindow.m in Sources */,
+				8F8238C726945D240070DB9E /* PLVLCChatViewController.m in Sources */,
+				8F8238F026945D240070DB9E /* PLVPhotoPreBaseViewController.m in Sources */,
+				8F8238EA26945D240070DB9E /* PLVdanmu.m in Sources */,
+				8F82390B26945D240070DB9E /* PLVChatroomPresenter.m in Sources */,
+				8F82390D26945D240070DB9E /* PLVChatUser.m in Sources */,
+				8F8238FB26945D240070DB9E /* PLVBaseNavigationController.m in Sources */,
+				8F8238CC26945D240070DB9E /* PLVLCLandscapeSpeakCell.m in Sources */,
+				8F8238FE26945D240070DB9E /* PLVKeyboardTextView.m in Sources */,
+				8F82392B26945D240070DB9E /* PLVECCommodityModelsManager.m in Sources */,
+				8F8238F226945D240070DB9E /* PLVPhotoPreViewController.m in Sources */,
+				8F82393326945D240070DB9E /* PLVECGiftView.m in Sources */,
+				8F82391126945D240070DB9E /* PLVInteractBulletin.m in Sources */,
+				8F8238F526945D240070DB9E /* PLVImageInfo.m in Sources */,
+				8F82391826945D240070DB9E /* PLVECHomePageView.m in Sources */,
+				8F82391E26945D240070DB9E /* PLVECSwitchView.m in Sources */,
+				8F82391526945D240070DB9E /* PLVInteractBaseApp+General.m in Sources */,
+				8F82393226945D240070DB9E /* PLVECRewardController.m in Sources */,
+				8F82390726945D240070DB9E /* PLVRoomDataManager.m in Sources */,
+				8F8238EC26945D240070DB9E /* PLVAlbumTool.m in Sources */,
+				8F82391C26945D240070DB9E /* PLVECMoreView.m in Sources */,
+				8F82392126945D240070DB9E /* PLVECBulletinCardView.m in Sources */,
+				8F82392E26945D240070DB9E /* PLVECChatroomViewModel.m in Sources */,
+				8F8238CB26945D240070DB9E /* PLVLCImageMessageCell.m in Sources */,
+				8F8238D326945D240070DB9E /* PLVLCLikeButtonView.m in Sources */,
+				8F8238BF26945D240070DB9E /* PLVLCDescViewController.m in Sources */,
+				8F82390626945D240070DB9E /* PLVLinkMicOnlineUser.m in Sources */,
+				8F8238BB26945D240070DB9E /* PLVLCLinkMicSpeakingView.m in Sources */,
+				8F82393126945D240070DB9E /* PLVECWelcomView.m in Sources */,
+				8F8238EB26945D240070DB9E /* PLVProgressSlider.m in Sources */,
+				8F8238CE26945D240070DB9E /* PLVLCLandscapeQuoteCell.m in Sources */,
+				8FF0F62B2674B5750047DE06 /* BlueView.m in Sources */,
+				8F8238DD26945D240070DB9E /* PLVLCBasePlayerSkinView.m in Sources */,
+				8F82392226945D240070DB9E /* PLVECCardView.m in Sources */,
+				8F82392326945D240070DB9E /* PLVECLiveIntroductionCardView.m in Sources */,
+				8F82391A26945D240070DB9E /* PLVECLikeButtonView.m in Sources */,
+				8F82390826945D240070DB9E /* PLVRoomLoginClient.m in Sources */,
+				8F8238E726945D240070DB9E /* PLVMarqueeLabel.m in Sources */,
+				8F8238D226945D240070DB9E /* PLVLCNotifyMarqueeView..m in Sources */,
+				8F8238E826945D240070DB9E /* PLVPlayerLogoView.m in Sources */,
+				8F8238BC26945D240070DB9E /* PLVLCLinkMicLandscapeControlBar.m in Sources */,
+				8F8238C026945D240070DB9E /* PLVLCDescTopView.m in Sources */,
+				8F82393826945D240070DB9E /* PLVECAudioAnimalView.m in Sources */,
+				8F82391426945D240070DB9E /* PLVInteractView.m in Sources */,
+				8F82393726945D240070DB9E /* PLVECPlayerBackgroundView.m in Sources */,
+				8F82390C26945D240070DB9E /* PLVChatModel.m in Sources */,
+				8F8238CD26945D240070DB9E /* PLVLCLandscapeImageCell.m in Sources */,
+				8F8238B226945D240070DB9E /* PLVLCUtils.m in Sources */,
+				8F8238DE26945D240070DB9E /* PLVLCMediaBrightnessView.m in Sources */,
+				8F8238C826945D240070DB9E /* PLVLCChatLandscapeView.m in Sources */,
+				8F82390526945D240070DB9E /* PLVLinkMicPresenter.m in Sources */,
+				8F82391D26945D240070DB9E /* PLVECLiveRoomInfoView.m in Sources */,
+				8F8238F726945D240070DB9E /* PLVPhotoCollectionFooterView.m in Sources */,
+				8F82392826945D240070DB9E /* PLVECGoodsDetailViewController.m in Sources */,
+				8F82392426945D240070DB9E /* PLVECWatchRoomViewController.m in Sources */,
+				8F8238FC26945D240070DB9E /* PLVPhotoBrowser.m in Sources */,
+				8F8238B626945D240070DB9E /* PLVLCLinkMicAreaView.m in Sources */,
+				8F82392F26945D240070DB9E /* PLVECChatroomView.m in Sources */,
+				8F8238F326945D240070DB9E /* PLVAlbumsViewController.m in Sources */,
+				8F82391226945D240070DB9E /* PLVInteractLottery.m in Sources */,
+				0448E483260C1BB600B41603 /* main.m in Sources */,
+				8F8238DA26945D240070DB9E /* PLVLCMediaMoreView.m in Sources */,
+				8F8238F126945D240070DB9E /* PLVAlbumNavigationController.m in Sources */,
+				8F8238AF26945D240070DB9E /* PLVLCCloudClassViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0448E484260C1BB600B41603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0448E48D260C1BB600B41603 /* LeeJTomLiveScenesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0448E48F260C1BB600B41603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0448E498260C1BB600B41603 /* LeeJTomLiveScenesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0448E48A260C1BB600B41603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0448E46C260C1BB400B41603 /* LeeJTomLiveScenes */;
+			targetProxy = 0448E489260C1BB600B41603 /* PBXContainerItemProxy */;
+		};
+		0448E495260C1BB600B41603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0448E46C260C1BB400B41603 /* LeeJTomLiveScenes */;
+			targetProxy = 0448E494260C1BB600B41603 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0448E47E260C1BB600B41603 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0448E47F260C1BB600B41603 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0448E6F4260D812C00B41603 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0448E6F5260D812C00B41603 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0448E49A260C1BB600B41603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0448E49B260C1BB600B41603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0448E49D260C1BB600B41603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 149929D6FFD6018558A401D3 /* Pods-LeeJTomLiveScenes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BMZBNN3Q5;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/LeeJTomLiveScenes/Polyv",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LeeJTomLiveScenes/PrefixHeader.pch";
+				INFOPLIST_FILE = LeeJTomLiveScenes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = polyv.PolyvLiveScenesDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = NO;
+				VALID_ARCHS = "arm64 armv7 x86_64";
+			};
+			name = Debug;
+		};
+		0448E49E260C1BB600B41603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE5B59009A49317AA6E4A7B5 /* Pods-LeeJTomLiveScenes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BMZBNN3Q5;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/LeeJTomLiveScenes/Polyv",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LeeJTomLiveScenes/PrefixHeader.pch";
+				INFOPLIST_FILE = LeeJTomLiveScenes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = polyv.PolyvLiveScenesDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = NO;
+			};
+			name = Release;
+		};
+		0448E4A0260C1BB600B41603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 054A75A8D52F20817ADC8E1A /* Pods-LeeJTomLiveScenesTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = LeeJTomLiveScenesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LeeJTom.LeeJTomLiveScenesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeeJTomLiveScenes.app/LeeJTomLiveScenes";
+			};
+			name = Debug;
+		};
+		0448E4A1260C1BB600B41603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5D53CC4151506FD2CD63D5F /* Pods-LeeJTomLiveScenesTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = LeeJTomLiveScenesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LeeJTom.LeeJTomLiveScenesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeeJTomLiveScenes.app/LeeJTomLiveScenes";
+			};
+			name = Release;
+		};
+		0448E4A3260C1BB600B41603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAA88D2180E49828477E7D15 /* Pods-LeeJTomLiveScenes-LeeJTomLiveScenesUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeeJTomLiveScenesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LeeJTom.LeeJTomLiveScenesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeeJTomLiveScenes;
+			};
+			name = Debug;
+		};
+		0448E4A4260C1BB600B41603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83AC0AFEA43F17B946BBCD35 /* Pods-LeeJTomLiveScenes-LeeJTomLiveScenesUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeeJTomLiveScenesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LeeJTom.LeeJTomLiveScenesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeeJTomLiveScenes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0448E468260C1BB400B41603 /* Build configuration list for PBXProject "LeeJTomLiveScenes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0448E49A260C1BB600B41603 /* Debug */,
+				0448E49B260C1BB600B41603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0448E49C260C1BB600B41603 /* Build configuration list for PBXNativeTarget "LeeJTomLiveScenes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0448E49D260C1BB600B41603 /* Debug */,
+				0448E49E260C1BB600B41603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0448E49F260C1BB600B41603 /* Build configuration list for PBXNativeTarget "LeeJTomLiveScenesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0448E4A0260C1BB600B41603 /* Debug */,
+				0448E4A1260C1BB600B41603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0448E4A2260C1BB600B41603 /* Build configuration list for PBXNativeTarget "LeeJTomLiveScenesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0448E4A3260C1BB600B41603 /* Debug */,
+				0448E4A4260C1BB600B41603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0448E465260C1BB400B41603 /* Project object */;
+}

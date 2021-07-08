@@ -1,0 +1,57 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/aliyun/aliyun-specs.git'
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+
+target 'LeeJTomLiveScenes' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+pod 'PLVLiveScenesSDK', '~> 1.5.0' # polyv 多场景 SDK
+#pod 'PLVLiveScenesSDKA', '~> 1.3.0.0' # polyv 多场景 SDK
+#pod 'PLVLiveScenesSDKA', :path => '/Users/lijingtong/Documents/source/Polyv/Polyv-public/PLVLiveScenesSDK'
+#pod 'AgoraRtcEngine_iOS', '3.0.0.2'
+
+#PolyvAliHttpDNS
+pod 'PolyvAliHttpDNS/AlicloudHttpDNS', '1.8.0'
+
+# 1.5.0
+#pod 'PLVModel', '~> 1.0.4'
+#pod 'AliyunOSSiOS', '~> 2.10.8'
+
+#pod 'AlicloudHTTPDNS', '1.19.2.7'
+#pod 'AlicloudHTTPDNS', '1.6.19'
+#pod 'AlicloudUtils', '1.3.4'
+#pod 'AlicloudUTDID', '1.1.0.19'
+    
+
+# pod 'ZegoExpressEngine/Video_zh'
+#pod 'TXLiteAVSDK_Professional', '8.3.9884'
+#pod 'UCloudRtcSdk', '1.8.4'
+# 以下是第三方依赖库，若本身未引入，则需添加（若不使用Demo源码，可不Pod以下依赖库）
+pod 'SDWebImage', '4.4.0'
+pod 'MJRefresh', '~> 3.5.0'
+pod 'Bugly', '~> 2.5.0' # 腾讯 Bugly 异常上报 SDK
+pod 'Reveal-SDK', '22'
+
+# 1.5.0
+pod 'TZImagePickerController', '~> 3.5.2'
+
+#pod 'SocketIO-Client-CPP', '~> 1.6.1'
+  # Pods for LeeJTomLiveScenes
+# 日志系统
+#pod 'CocoaLumberjack'
+
+#pod 'matrix-wechat'
+  
+  pod 'WebViewJavascriptBridge', '~> 6.0'
+  
+  target 'LeeJTomLiveScenesTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'LeeJTomLiveScenesUITests' do
+    # Pods for testing
+  end
+
+end
